@@ -1,0 +1,10 @@
+SELECT DISTINCT *
+DELETE {
+	?class rdfs:comment ?comment .
+}
+WHERE { 
+	?class rdfs:comment ?comment . 
+	FILTER (REGEX(STR(?comment),"http://bsdd.buildingsmart.org","i"))
+	
+	BIND ( IRI(STR(?comment)) AS ?commentIRI)
+}
