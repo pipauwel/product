@@ -1,0 +1,7 @@
+@prefix ccc: <https://w3id.org/ccc#> # construction component classification
+INSERT {
+	?class rdfs:subClassOf ccc:ConstructionComponent .
+}
+WHERE {
+	?class rdfs:subClassOf schema:Product .
+}
