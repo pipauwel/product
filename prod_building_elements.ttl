@@ -50,15 +50,16 @@
   vann:preferredNamespacePrefix "beo" ;
   vann:preferredNamespaceUri "http://pi.pauwel.be/voc/buildingelement#" ;
   rdfs:comment """- TODO: remove similar labels/comments with same language tag
-- Version 0.3.0: changed ccc:ConstructionComponent into contax:ConstructionComponent and added contax:ConstructionSubComponent
+- Version 0.3.0: changed ccc:ConstructionComponent into contax:ConstructionComponent and added contax:ConstructionSubComponent. Added rdfs:isDefinedBy
 - Version 0.2.0: changed all subclasses of schema:Product and gr:SomeItems into a subclass of ccc:ConstructionComponent
 - Version 0.1.1: small changes and corrections (completed onto metadata; changed labels containing a bSDD URL to URIs connected via rdfs:seeAlso; updated ifcOWL URI; replace erroneous language tags (remove @ifc-2x4); added gr:SomeItems class and make beo:ElementComponent and beo:TransportElement a subclass (similar to beo:BuildingElement); added missing language tags to strings)
 - Version 0.1.0: initial version"""@en ;
-  owl:versionInfo "0.2.0" ;
+  owl:versionInfo "0.3.0" ;
 .
 beo:Beam
   rdf:type owl:Class ;
   rdfs:comment "A horizontal, or nearly horizontal, structural member that is capable of withstanding load primarily by resisting bending. It represents such a member from an architectural point of view. It is not required to be load bearing."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Balk"@nl ;
   rdfs:label "Beam"@en ;
   rdfs:label "Bjælke"@da ;
@@ -73,6 +74,7 @@ beo:Beam
 beo:Beam-BEAM
   rdf:type owl:Class ;
   rdfs:comment "A standard beam usually used horizontally."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Beam"@en ;
   rdfs:label "balk"@nl-nl ;
   rdfs:label "balken"@de-de ;
@@ -97,6 +99,7 @@ beo:Beam-HOLLOWCORE
   rdfs:comment "rektangulært element med langsgående sirkulære eller ovale hulrom i full lengde"@nb-no ;
   rdfs:comment "suorakaiteenmuotoinen laattaelementti, jossa on koko pituudeltaan pyöreitä tai ovaalinmuotoisia onteloita/tyhjätiloja"@fi-fi ;
   rdfs:comment "плоча с правоъгълно сечение и кухини по цялата дължина с надлъжна кръгла или овална форма "@bg-bg ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Pre-cast Hollow Core Slab"@en ;
   rdfs:label "dalle alvéolée préfabriquée en béton"@fr-fr ;
   rdfs:label "förtillverkade betongprodukter - håldäcksplattor"@sv-se ;
@@ -117,6 +120,7 @@ beo:Beam-HOLLOWCORE
 .
 beo:Beam-JOIST
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Joiste"@en ;
   rdfs:label "tilpasset bjelke"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1_zkjNhS95oA5oDSSTnEvO> ;
@@ -125,6 +129,7 @@ beo:Beam-JOIST
 .
 beo:Beam-LINTEL
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Lintel"@en ;
   rdfs:label "overdekking"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1PivEYC0575QGoaAFjN8c9> ;
@@ -133,6 +138,7 @@ beo:Beam-LINTEL
 .
 beo:Beam-SPANDREL
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Spandrel"@en ;
   rdfs:label "brystning"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2$vr6UW$f3SwHilnemEZoH> ;
@@ -141,6 +147,7 @@ beo:Beam-SPANDREL
 .
 beo:Beam-T_BEAM
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "T_Beam"@en ;
   rdfs:label "t_bjelke"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1o9Up6wBr339DlpjWIWE$l> ;
@@ -151,6 +158,7 @@ beo:BuildingElement
   rdf:type owl:Class ;
   rdfs:comment "Bauelement"@de-de ;
   rdfs:comment "Comprises all elements that are primarily part of the construction of a building, i.e., its structural and space separating system. Building elements are all physically existent and tangible things."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Bauteil"@de-de ;
   rdfs:label "Building Element"@en ;
   rdfs:label "Elément de construction"@fr-fr ;
@@ -161,6 +169,7 @@ beo:BuildingElement
 beo:BuildingElementPart
   rdf:type owl:Class ;
   rdfs:comment "ifcbuildingelementpart represents major components as subordinate parts of a building element. typical usage examples include precast concrete sandwich walls, where the layers may have different geometry representations. in this case the layered material representation does not sufficiently describe the element. each layer is represented by an own instance of the ifcbuildingelementpart with its own geometry description. the kind of building element part is further specified by a corresponding instance of ifcbuildingelementparttype, referred to by ifcreldefinesbytype."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Building Element Part"@en ;
   rdfs:label "Teil eines Bauelements"@de-de ;
   rdfs:label "partie d'élément de construction"@fr-fr ;
@@ -170,6 +179,7 @@ beo:BuildingElementPart
 .
 beo:BuildingElementPart-INSULATION
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Insulation"@en ;
   rdfs:label "isolasjon"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2CF$o8Mgv2_xbw_kioa_YW> ;
@@ -178,6 +188,7 @@ beo:BuildingElementPart-INSULATION
 .
 beo:BuildingElementPart-PRECASTPANEL
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Precast Panel"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0pt2K5QIXB89suCXlsQZw$> ;
   rdfs:seeAlso ifc:IfcBuildingElementPartEnumType ;
@@ -189,6 +200,7 @@ beo:Chimney
   rdfs:comment "Typically vertical, or as near as vertical, parts of the construction of a building and part of the building fabric. Often constructed by pre-cast or insitu concrete, today seldom by bricks."@en ;
   rdfs:comment "konstruksjon bestående av én eller flere vegger som omslutter én eller flere røykkanaler"@nb-no ;
   rdfs:comment "structure consisting of a wall or walls enclosing  a flue or flues"@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Abgasanlage"@de-de ;
   rdfs:label "Abgassanlage"@de-de ;
   rdfs:label "Chimney"@en ;
@@ -207,6 +219,7 @@ beo:Chimney
 beo:Column
   rdf:type owl:Class ;
   rdfs:comment "A vertical structural member which often is aligned with a structural grid intersection. It represents a vertical, or nearly vertical, structural member that transmits, through compression, the weight of the structure above to other structural elements below. It represents such a member from an architectural point of view. It is not required to be load bearing."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Column"@en ;
   rdfs:label "Kolom"@nl ;
   rdfs:label "Stütze / Pfeiler"@de-de ;
@@ -220,6 +233,7 @@ beo:Column-COLUMN
   rdf:type owl:Class ;
   rdfs:comment "A vertical structural member which often is aligned with a structural grid intersection. It represents a vertical, or nearly vertical, structural member that transmits, through compression, the weight of the structure above to other structural elements below. It represents such a member from an architectural point of view. It is not required to be load bearing."@en ;
   rdfs:comment "Søyle"@nb-no ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Column"@en ;
   rdfs:label "Druckstab"@de-de ;
   rdfs:label "Stütze"@de-de ;
@@ -232,6 +246,7 @@ beo:Column-PILASTER
   rdf:type owl:Class ;
   rdfs:comment "Pilaster"@nb-no ;
   rdfs:comment "vertikalt fremspring på vegg"@nb-no ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Pilaster"@en ;
   rdfs:label "Pilaster"@nl-nl ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/08F4W56in3zeQ$ucplQrmF> ;
@@ -242,6 +257,7 @@ beo:Column-PILASTER
 beo:Covering
   rdf:type owl:Class ;
   rdfs:comment "An element which covers some part of another element and is fully dependent on that other element."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Bekleidung / Belag"@de-de ;
   rdfs:label "Covering"@en ;
   rdfs:label "kledning / belegg"@nb-no ;
@@ -252,6 +268,7 @@ beo:Covering
 .
 beo:Covering-CEILING
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Ceiling"@en ;
   rdfs:label "tak"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/05pSAVKa99GQlGChUhmlv1> ;
@@ -260,6 +277,7 @@ beo:Covering-CEILING
 .
 beo:Covering-CLADDING
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Cladding"@en ;
   rdfs:label "kledning"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0MKWgDXdn9OfqhAzFzvTUH> ;
@@ -268,6 +286,7 @@ beo:Covering-CLADDING
 .
 beo:Covering-FLOORING
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Flooring"@en ;
   rdfs:label "gulv"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1MZNPRnDz1jOV_XCmntitl> ;
@@ -276,6 +295,7 @@ beo:Covering-FLOORING
 .
 beo:Covering-INSULATION
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Insulation"@en ;
   rdfs:label "isolasjon"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0m_WyU8An7RAFjJPRPQn1j> ;
@@ -287,6 +307,7 @@ beo:Covering-MEMBRANE
   rdfs:comment "vanntett og/eller damptett lag som er festet til sluket i gulvet, på gulvet eller på taket"@nb-no ;
   rdfs:comment """watertight and/or damp proof layer attached to the gully either in the floor or on the floor or
 roof"""@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Dichtungsbahn"@de-de ;
   rdfs:label "Membrane"@en ;
   rdfs:label "film d'étanchéité"@fr-fr ;
@@ -297,6 +318,7 @@ roof"""@en ;
 .
 beo:Covering-MOLDING
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Gesims"@de-de ;
   rdfs:label "Matériau de la moulure"@fr-fr ;
   rdfs:label "Molding"@en ;
@@ -309,6 +331,7 @@ beo:Covering-MOLDING
 .
 beo:Covering-ROOFING
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Roofing"@en ;
   rdfs:label "takdekke"@nb-no ;
   rdfs:label "taktekking"@nb-no ;
@@ -318,6 +341,7 @@ beo:Covering-ROOFING
 .
 beo:Covering-SKIRTINGBOARD
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Matériau de la plinthe"@fr-fr ;
   rdfs:label "Skirting Board"@en ;
   rdfs:label "Sockelleiste"@de-de ;
@@ -329,6 +353,7 @@ beo:Covering-SKIRTINGBOARD
 .
 beo:Covering-SLEEVING
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Sleeving"@en ;
   rdfs:label "strømpe"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2mox_rbmb43xWuIkQmJqW1> ;
@@ -337,6 +362,7 @@ beo:Covering-SLEEVING
 .
 beo:Covering-WRAPPING
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Wrapping"@en ;
   rdfs:label "innkledning"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/16XES3__TAdwQ57Ox4T_V8> ;
@@ -357,6 +383,7 @@ beo:CurtainWall
   rdfs:comment "vertical and horizontal structural members, connected together and anchored to the supporting structure of the building and infilled, to form a space enclosing continuous skin, which provides, by itself or in conjunction with the building construction, all the normal functions of an external wall, but does not take on any of the load bearing characteristics of the building structure"@en ;
   rdfs:comment "vertikala och horisontella byggnadsdelar som har sammanfogats och förankrats vid byggnadens stödkonstruktion och isolerats, för att skapa en inhägnad med kontinuerlig yta som, av sig själv eller tillsammans med byggnadskonstruktionen, erbjuder alla funktioner som en yttervägg vanligtvis har, men som inte har några av byggnadskonstruktionens bärande egenskaper"@sv-se ;
   rdfs:comment "вертикални и хоризонтални конструктивни елементи, свързани помежду си, закрепени към основната конструкция на сградата и запълнени, за да образуват непрекъсната ограждаща пространството обвивка, която осигурява, самостоятелно или съвместно с конструкцията на сградата, всички изисквани функции към една външна стена, но без да изпълнява никакви функции свързани с носимоспособността на сградната конструкция"@bg-bg ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Curtain Wall"@en ;
   rdfs:label "Gordijngevel"@nl ;
   rdfs:label "Gordijngevel"@nl-nl ;
@@ -375,6 +402,7 @@ beo:CurtainWall
 beo:DiscreteAccessory
   rdf:type owl:Class ;
   rdfs:comment "A representation of different kinds of accessories included in or added to elements."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Accessoire composé"@fr-fr ;
   rdfs:label "Discrete Accessory"@en ;
   rdfs:label "Zusatzgerät / Einbauteil"@de-de ;
@@ -384,6 +412,7 @@ beo:DiscreteAccessory
 .
 beo:DiscreteAccessory-ANCHORPLATE
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Anchor Plate"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1XD5ysVrvF$haI5OgtznWi> ;
   rdfs:seeAlso ifc:IfcDiscreteAccessoryEnumType ;
@@ -394,6 +423,7 @@ beo:DiscreteAccessory-BRACKET
   rdfs:comment "An artefact which is projecting from the side of a wall or other structure intended to support some other artefacts.        "@en ;
   rdfs:comment "Brakkett for utstyr"@nb-no ;
   rdfs:comment "Innstøpningsbrakett"@nb-no ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Bracket"@en ;
   rdfs:label "Console"@nl-nl ;
   rdfs:label "Winkellasche"@de-de ;
@@ -413,6 +443,7 @@ beo:DiscreteAccessory-BRACKET
 .
 beo:DiscreteAccessory-SHOE
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Shoe"@en ;
   rdfs:label "søylesko"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1i44itooP5F9e53Jc$HR0o> ;
@@ -425,6 +456,7 @@ beo:Door
   rdfs:comment "En åpning i en barriære med et dørblad som kan lukke åpningen og en ramme som holder dørbladet."@nb-no ;
   rdfs:comment "a complete unit consisting of a door frame and a door leaf or leaves, supplied with the essential hardware and wheatherseal, as a product from a single source"@en ;
   rdfs:comment "construction for closing an opening intended primarily for access or egress or both. Typically consisting of a panel that swings on hinges or that slides or rotates"@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Deur"@nl-nl ;
   rdfs:label "Door"@en ;
   rdfs:label "Dør"@da ;
@@ -444,6 +476,7 @@ beo:Door-DOOR
   rdfs:comment "En åpning i en barriære med et dørblad som kan lukke åpningen og en ramme som holder dørbladet."@nb-no ;
   rdfs:comment "a complete unit consisting of a door frame and a door leaf or leaves, supplied with the essential hardware and wheatherseal, as a product from a single source"@en ;
   rdfs:comment "construction for closing an opening intended primarily for access or egress or both. Typically consisting of a panel that swings on hinges or that slides or rotates"@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Deur"@nl-nl ;
   rdfs:label "Door"@en ;
   rdfs:label "Tür"@de-de ;
@@ -463,6 +496,7 @@ beo:Door-GATE
 Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som tillater passering av kjøretøyer."""@nb-no ;
   rdfs:comment "a movable barrier, usually on hinges, closing an opening in a fence, wall, or other enclosure"@en ;
   rdfs:comment "innretning for å lukke en åpning som er beregnet for passering av kjøretøyer og personer"@nb-no ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Gate"@en ;
   rdfs:label "Hek"@nl-nl ;
   rdfs:label "Poort"@nl-nl ;
@@ -475,6 +509,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
 .
 beo:Door-TRAPDOOR
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Roof Hatch"@en ;
   rdfs:label "Trap Door"@en ;
   rdfs:label "takluke"@nb-no ;
@@ -485,6 +520,7 @@ beo:Door-TRAPDOOR
 beo:ElementComponent
   rdf:type owl:Class ;
   rdfs:comment "A representation for minor items included in, added to or connecting to or between elements, which usually are not of interest from the overall building structure viewpoint. However, these small parts may have vital and load carrying functions within the construction. These items do not provide any actual space boundaries. Typical examples include different kinds of fasteners and various accessories."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Composant d'élément"@fr-fr ;
   rdfs:label "Element Component"@en ;
   rdfs:label "Elementenbestandteil"@de-de ;
@@ -496,6 +532,7 @@ beo:Fastener
   rdf:type owl:Class ;
   rdfs:comment "Jointing component that is used to operate a door, window, shutter, gate or drawer ."@en ;
   rdfs:comment "Representations of fixing parts which are used as fasteners to connect or join elements with other elements. "@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Befestigungsmittel"@de-de ;
   rdfs:label "Elément d'assemblage"@fr-fr ;
   rdfs:label "Fastener"@en ;
@@ -508,6 +545,7 @@ beo:Fastener-GLUE
   rdf:type owl:Class ;
   rdfs:comment "bindemedel eller bindemedelslösning för hopfogning av fasta material"@sv-se ;
   rdfs:comment "binder or binder solution for joining solid materials"@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Glue"@en ;
   rdfs:label "lim"@nb-no ;
   rdfs:label "lim"@sv-se ;
@@ -517,6 +555,7 @@ beo:Fastener-GLUE
 .
 beo:Fastener-MORTAR
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Mortar"@en ;
   rdfs:label "mørtel"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0dS2xSsC1BbvRjM1MIjNn5> ;
@@ -527,6 +566,7 @@ beo:Fastener-WELD
   rdf:type owl:Class ;
   rdfs:comment "a weld seam between parts of metallic material or other suitable materials"@en ;
   rdfs:comment "a weld seam between parts of metallic material or other suitable materials"@en-gb ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Weld"@en ;
   rdfs:label "sveis"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/01DZw_Z2b4CwKEwBQ9ERPZ> ;
@@ -537,6 +577,7 @@ beo:Footing
   rdf:type owl:Class ;
   rdfs:comment "A part of the foundation of a structure that spreads and transmits the load to the soil. Also characterized as shallow foundation, where the loads are transferred to the ground near the surface."@en ;
   rdfs:comment "Flachgründung"@de-de ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Footing"@en ;
   rdfs:label "Fundament"@de-de ;
   rdfs:label "Funderingsvoet"@nl-nl ;
@@ -547,6 +588,7 @@ beo:Footing
 .
 beo:Footing-CAISSON_FOUNDATION
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Caisson Foundation"@en ;
   rdfs:label "senkekasse til fundament"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0MGkpmTGDFC80qy7qA0W2w> ;
@@ -555,6 +597,7 @@ beo:Footing-CAISSON_FOUNDATION
 .
 beo:Footing-FOOTING_BEAM
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Footing Beam"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3hRbiifMvFOgC3tEfSPD8X> ;
   rdfs:seeAlso ifc:IfcFootingEnumType ;
@@ -562,6 +605,7 @@ beo:Footing-FOOTING_BEAM
 .
 beo:Footing-PAD_FOOTING
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Pad Footing"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1XJ0TK6AbBfxMCQLLkdnDr> ;
   rdfs:seeAlso ifc:IfcFootingEnumType ;
@@ -569,6 +613,7 @@ beo:Footing-PAD_FOOTING
 .
 beo:Footing-PILE_CAP
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Pile Cap"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3$LxhKMZjFuBdi75OQXj0L> ;
   rdfs:seeAlso ifc:IfcFootingEnumType ;
@@ -576,6 +621,7 @@ beo:Footing-PILE_CAP
 .
 beo:Footing-STRIP_FOOTING
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Strip Footing"@en ;
   rdfs:label "platefundament"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0mDEbMPpzB9B_vQTUHZLHe> ;
@@ -585,6 +631,7 @@ beo:Footing-STRIP_FOOTING
 beo:MechanicalFastener
   rdf:type owl:Class ;
   rdfs:comment "A fastener connecting building elements mechanically. A single instance may represent one or many of actual mechanical fasteners, for example an array of bolts or a row of nails."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Mechanical Fastener"@en ;
   rdfs:label "MechanicalFastener"@en ;
   rdfs:label "Mechanisches Befestigungsmittel"@de-de ;
@@ -595,6 +642,7 @@ beo:MechanicalFastener
 .
 beo:MechanicalFastener-ANCHORBOLT
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Anchor Bolt"@en ;
   rdfs:label "mekanisk ankerbolt"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3NJqge3HD7du28Nje_S1Yv> ;
@@ -604,6 +652,7 @@ beo:MechanicalFastener-ANCHORBOLT
 beo:MechanicalFastener-BOLT
   rdf:type owl:Class ;
   rdfs:comment "a threaded cylindrical rod that engages with a similarly threaded hole in a nut or any other part to form a fastener. the mechanical fastener often also includes one or more washers and one or more nuts."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Bolt"@en ;
   rdfs:label "mekanisk festemiddel - bolt"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2yfVRHZ2X7heCLVLk0oVBK> ;
@@ -615,6 +664,7 @@ beo:MechanicalFastener-DOWEL
   rdfs:comment "Dybel"@nb-no ;
   rdfs:comment "rod protruding from the toe of the sheet pile, used for fixing sheet piles to the bed-rock"@en ;
   rdfs:comment "stag som stikker ut fra foten av spuntnålen, og som brukes for å feste spunten til fjell"@nb-no ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Dowel"@en ;
   rdfs:label "Felsdübel"@de-de ;
   rdfs:label "dowel"@en ;
@@ -628,6 +678,7 @@ beo:MechanicalFastener-DOWEL
 .
 beo:MechanicalFastener-NAIL
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Nail"@en ;
   rdfs:label "spiker"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1WICu7sp12cQ$$2QCHf$DB> ;
@@ -636,6 +687,7 @@ beo:MechanicalFastener-NAIL
 .
 beo:MechanicalFastener-NAILPLATE
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Nail Plate"@en ;
   rdfs:label "spikerplate"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/26FDcCBjH3BOLZTZb29fxk> ;
@@ -644,6 +696,7 @@ beo:MechanicalFastener-NAILPLATE
 .
 beo:MechanicalFastener-RIVET
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Rivet"@en ;
   rdfs:label "nagle"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1zynxAt3H1eAVfmukRcO4R> ;
@@ -652,6 +705,7 @@ beo:MechanicalFastener-RIVET
 .
 beo:MechanicalFastener-SCREW
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Screw"@en ;
   rdfs:label "skrue"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2NLmoal3LAGxceh8SPCvI7> ;
@@ -660,6 +714,7 @@ beo:MechanicalFastener-SCREW
 .
 beo:MechanicalFastener-SHEARCONNECTOR
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Shear Connector"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0sHCCoroj0pesEpqdsmtRT> ;
   rdfs:seeAlso ifc:IfcMechanicalFastenerEnumType ;
@@ -667,6 +722,7 @@ beo:MechanicalFastener-SHEARCONNECTOR
 .
 beo:MechanicalFastener-STAPLE
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Staple"@en ;
   rdfs:label "stift"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3ugeBu3lP8WANu_d7DFAtv> ;
@@ -675,6 +731,7 @@ beo:MechanicalFastener-STAPLE
 .
 beo:MechanicalFastener-STUDSHEARCONNECTOR
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Stud Shear Connector"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2VmXuOwNvFIxXMT91lYI9q> ;
   rdfs:seeAlso ifc:IfcMechanicalFastenerEnumType ;
@@ -683,6 +740,7 @@ beo:MechanicalFastener-STUDSHEARCONNECTOR
 beo:Member
   rdf:type owl:Class ;
   rdfs:comment "A structural member designed to carry loads between or beyond points of support. It is not required to be load bearing.  A linear architectural or structural element that cannot be expressed more specifically as either a beam or column."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Member"@en ;
   rdfs:label "Membre"@fr-fr ;
   rdfs:label "Stab / Stabträger"@de-de ;
@@ -693,6 +751,7 @@ beo:Member
 .
 beo:Member-BRACE
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Brace"@en ;
   rdfs:label "avstiver"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0ccYVvWMX5jwoOSredVplR> ;
@@ -701,6 +760,7 @@ beo:Member-BRACE
 .
 beo:Member-CHORD
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Chord"@en ;
   rdfs:label "gurt"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1_qCPXQ3j1VBh_PCDSM2PC> ;
@@ -709,6 +769,7 @@ beo:Member-CHORD
 .
 beo:Member-COLLAR
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Collar"@en ;
   rdfs:label "krage"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1r9F5o8Pv9mPKppdGc$YOw> ;
@@ -718,6 +779,7 @@ beo:Member-COLLAR
 beo:Member-MEMBER
   rdf:type owl:Class ;
   rdfs:comment "A structural member designed to carry loads between or beyond points of support. It is not required to be load bearing.  A linear architectural or structural element that cannot be expressed more specifically as either a beam or column."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Member"@en ;
   rdfs:label "Membre"@fr-fr ;
   rdfs:label "Stab / Stabträger"@de-de ;
@@ -728,6 +790,7 @@ beo:Member-MEMBER
 .
 beo:Member-MULLION
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Mullion"@en ;
   rdfs:label "midtstolpe"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2H6TZXz1vEFOlOdhLv3CD7> ;
@@ -737,6 +800,7 @@ beo:Member-MULLION
 beo:Member-PLATE
   rdf:type owl:Class ;
   rdfs:comment "A planar and often flat part with constant thickness. May carry loads between or beyond points of support, or provide stiffening. "@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Plate"@en ;
   rdfs:label "Platte / Paneel"@de-de ;
   rdfs:label "plaque"@fr-fr ;
@@ -750,6 +814,7 @@ beo:Member-POST
   rdf:type owl:Class ;
   rdfs:comment "a linear member (usually used vertically) within a roof structure to support purlins"@en ;
   rdfs:comment "a linear member (usually used vertically) within a roof structure to support purlins"@en-gb ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Post"@en ;
   rdfs:label "stolpe"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3pLJTABEHCJeV4uMg1OJxY> ;
@@ -758,6 +823,7 @@ beo:Member-POST
 .
 beo:Member-PURLIN
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Purlin"@en ;
   rdfs:label "takås"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2ClC__ZBT6lgGn9bEtyKAq> ;
@@ -767,6 +833,7 @@ beo:Member-PURLIN
 beo:Member-RAFTER
   rdf:type owl:Class ;
   rdfs:comment "sperre"@nb-no ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Rafter"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/14MOjpDn1DYfI9uAgvn_Mm> ;
   rdfs:seeAlso ifc:IfcMemberEnumType ;
@@ -774,6 +841,7 @@ beo:Member-RAFTER
 .
 beo:Member-STRINGER
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Stringer"@en ;
   rdfs:label "vange"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/31phWfaoDEDwTkU1_cQp7G> ;
@@ -782,6 +850,7 @@ beo:Member-STRINGER
 .
 beo:Member-STRUT
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Strut"@en ;
   rdfs:label "trykkstav"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0F1OouH1f9rPC$dWa4xYLb> ;
@@ -790,6 +859,7 @@ beo:Member-STRUT
 .
 beo:Member-STUD
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Stud"@en ;
   rdfs:label "stender"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/14DS4URKP2au1B2s5ghLFp> ;
@@ -801,6 +871,7 @@ beo:Pile
   rdfs:comment "A vertical structural member of timber, concrete, or steel, driven into the earth as a foundation or support for a structure for the transfer of actions. "@en ;
   rdfs:comment "En stråle av tømmer, betong eller stål, drevet ned i jorden som fundament eller støtte til en struktur."@nb-no ;
   rdfs:comment "slankt bærende element i grunnen for overføring av laster. I denne europeiske standarden er slankhetsforholdet ikke begrenset"@nb-no ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Fundament / Tiefgründung"@de-de ;
   rdfs:label "Pfahl"@de-de ;
   rdfs:label "Pile"@en ;
@@ -814,6 +885,7 @@ beo:Pile
 .
 beo:Pile-BORED
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Bored Pile"@en ;
   rdfs:label "boret pel"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1INEbwMtrBy9rKhAuvXYmq> ;
@@ -822,6 +894,7 @@ beo:Pile-BORED
 .
 beo:Pile-COHESION
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Cohesion Pile"@en ;
   rdfs:label "kohesjon pel"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3xzAjG3Uv5qeCDRxYCXd4d> ;
@@ -830,6 +903,7 @@ beo:Pile-COHESION
 .
 beo:Pile-DRIVEN
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Driven Pile"@en ;
   rdfs:label "rammet pel"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2Qg5YD6TD299EHtweCaOOy> ;
@@ -838,6 +912,7 @@ beo:Pile-DRIVEN
 .
 beo:Pile-FRICTION
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Friction Pile"@en ;
   rdfs:label "friksjonspele"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3LgOubO_D3EhcElUZP9dMe> ;
@@ -846,6 +921,7 @@ beo:Pile-FRICTION
 .
 beo:Pile-JETGROUTING
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Jet Grouting Pile"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1tI0jqBjHEmADWyrGGYig6> ;
   rdfs:seeAlso ifc:IfcPileEnumType ;
@@ -853,6 +929,7 @@ beo:Pile-JETGROUTING
 .
 beo:Pile-SUPPORT
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Support"@en ;
   rdfs:label "støtte"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3qZud6iazFjOZ3wK3WoQch> ;
@@ -862,6 +939,7 @@ beo:Pile-SUPPORT
 beo:Plate
   rdf:type owl:Class ;
   rdfs:comment "A planar and often flat part with constant thickness. May carry loads between or beyond points of support, or provide stiffening. "@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Plate"@en ;
   rdfs:label "Platte / Paneel"@de-de ;
   rdfs:label "plaque"@fr-fr ;
@@ -874,6 +952,7 @@ beo:Plate-CURTAIN_PANEL
   rdf:type owl:Class ;
   rdfs:comment "a planar element within a curtain wall, often consisting of a frame with fixed glazing"@en ;
   rdfs:comment "a planar element within a curtain wall, often consisting of a frame with fixed glazing"@en-gb ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Curtain Panel"@en ;
   rdfs:label "skjermpanel"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2N7mbvPFL0QRlf$nLuQE0U> ;
@@ -882,6 +961,7 @@ beo:Plate-CURTAIN_PANEL
 .
 beo:Plate-SHEET
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Sheet"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2C4D8j05v51eRokWOWtlju> ;
   rdfs:seeAlso ifc:IfcPlateEnumType ;
@@ -890,6 +970,7 @@ beo:Plate-SHEET
 beo:Railing
   rdf:type owl:Class ;
   rdfs:comment "A frame assembly adjacent to human circulation spaces and at some space boundaries where it is used in line of walls or to compliment walls. Designed to aid humans, either as an optional physical support, or to prevent injury by falling."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Garde corps"@fr-fr ;
   rdfs:label "Geländer"@de-de ;
   rdfs:label "Gelænder"@da ;
@@ -906,6 +987,7 @@ beo:Railing
 beo:Railing-BALUSTRADE
   rdf:type owl:Class ;
   rdfs:comment "A balustrade is a separation construction alongside the edges of floors, roofs, stairs and ramps, protecting against falling into the deep."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Balustrade"@en ;
   rdfs:label "Geländer"@de-de ;
   rdfs:label "Hekwerk"@nl-nl ;
@@ -919,6 +1001,7 @@ beo:Railing-BALUSTRADE
 beo:Railing-GUARDRAIL
   rdf:type owl:Class ;
   rdfs:comment "A frame assembly adjacent to human circulation spaces and at some space boundaries where it is used in line of walls or to compliment walls. Designed to aid humans, either as an optional physical support, or to prevent injury by falling."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Garde corps"@fr-fr ;
   rdfs:label "Geländer"@de-de ;
   rdfs:label "Guardrail"@en ;
@@ -931,6 +1014,7 @@ beo:Railing-GUARDRAIL
 beo:Railing-HANDRAIL
   rdf:type owl:Class ;
   rdfs:comment "Håndlister, typisk i korridorer"@nb-no ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Handlauf"@de-de ;
   rdfs:label "Handrail"@en ;
   rdfs:label "håndlist"@nb-no ;
@@ -943,6 +1027,7 @@ beo:Ramp
   rdf:type owl:Class ;
   rdfs:comment "A vertical passageway which provides a human circulation link between one floor level and another floor level at a different elevation. Normally does not include steps."@en ;
   rdfs:comment "Rampe"@nb-no ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Helling"@nl ;
   rdfs:label "Ramp"@en ;
   rdfs:label "Rampe"@da ;
@@ -958,6 +1043,7 @@ beo:Ramp
 .
 beo:Ramp-HALF_TURN_RAMP
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Half Turn Ramp"@en ;
   rdfs:label "halv omdreining rampe"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1hJB5FgjL4_v2TrvOBjmzz> ;
@@ -966,6 +1052,7 @@ beo:Ramp-HALF_TURN_RAMP
 .
 beo:Ramp-QUARTER_TURN_RAMP
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Quarter Turn Ramp"@en ;
   rdfs:label "rampe med en sving"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1FZ7G8CAP2UxmW6fnuOOfQ> ;
@@ -974,6 +1061,7 @@ beo:Ramp-QUARTER_TURN_RAMP
 .
 beo:Ramp-SPIRAL_RAMP
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Spiral Ramp"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2__YGgu4XCN9NmT3LhvE6V> ;
   rdfs:seeAlso ifc:IfcRampEnumType ;
@@ -981,6 +1069,7 @@ beo:Ramp-SPIRAL_RAMP
 .
 beo:Ramp-STRAIGHT_RUN_RAMP
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Straight Run Ramp"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1SYNqJ72H64g7EG2vm8VJu> ;
   rdfs:seeAlso ifc:IfcRampEnumType ;
@@ -988,6 +1077,7 @@ beo:Ramp-STRAIGHT_RUN_RAMP
 .
 beo:Ramp-TWO_QUARTER_TURN_RAMP
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Two Quarter Turn Ramp"@en ;
   rdfs:label "rampe med to svinger"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2wUjACPhnDyAgFiGarLaek> ;
@@ -996,6 +1086,7 @@ beo:Ramp-TWO_QUARTER_TURN_RAMP
 .
 beo:Ramp-TWO_STRAIGHT_RUN_RAMP
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Two Straight Run Ramp"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2skPwOQSH1Ex7UR3SpDGbT> ;
   rdfs:seeAlso ifc:IfcRampEnumType ;
@@ -1004,6 +1095,7 @@ beo:Ramp-TWO_STRAIGHT_RUN_RAMP
 beo:RampFlight
   rdf:type owl:Class ;
   rdfs:comment "A single inclined segment, or several inclined segments that are connected by a horizontal segment, referred to as a landing. "@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Ramp Flight"@en ;
   rdfs:label "Rampenlauf"@de-de ;
   rdfs:label "Volée"@fr-fr ;
@@ -1014,6 +1106,7 @@ beo:RampFlight
 .
 beo:RampFlight-SPIRAL
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Spiral"@en ;
   rdfs:label "spiral"@nb-no ;
   rdfs:label "vindel"@nb-no ;
@@ -1023,6 +1116,7 @@ beo:RampFlight-SPIRAL
 .
 beo:RampFlight-STRAIGHT
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Straight"@en ;
   rdfs:label "rett"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0fyv31IoL8mwvU9TcZR2FC> ;
@@ -1032,6 +1126,7 @@ beo:RampFlight-STRAIGHT
 beo:ReinforcingBar
   rdf:type owl:Class ;
   rdfs:comment "a reinforcing bar is usually made of steel with manufactured deformations in the surface, and used in concrete and masonry construction to provide additional strength. a single instance of this class may represent one or many of actual rebars, for example a row of rebars."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Bewehrungsstab"@de-de ;
   rdfs:label "Reinforcing Bar"@en ;
   rdfs:label "armeringsstang"@nb-no ;
@@ -1042,6 +1137,7 @@ beo:ReinforcingBar
 .
 beo:ReinforcingBar-ANCHORING
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Anchoring"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3X1mNZzk542ez6g92TTVdH> ;
   rdfs:seeAlso ifc:IfcReinforcingBarEnumType ;
@@ -1049,6 +1145,7 @@ beo:ReinforcingBar-ANCHORING
 .
 beo:ReinforcingBar-EDGE
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Edge"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0tRGNh1sv19OvGghikeGYQ> ;
   rdfs:seeAlso ifc:IfcReinforcingBarEnumType ;
@@ -1056,6 +1153,7 @@ beo:ReinforcingBar-EDGE
 .
 beo:ReinforcingBar-LIGATURE
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Ligature"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/09DzOB3qT10AwjdzYLo1LA> ;
   rdfs:seeAlso ifc:IfcReinforcingBarEnumType ;
@@ -1063,6 +1161,7 @@ beo:ReinforcingBar-LIGATURE
 .
 beo:ReinforcingBar-MAIN
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Main"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0ZDnwDkMT9fhTxjjLnIpAX> ;
   rdfs:seeAlso ifc:IfcReinforcingBarEnumType ;
@@ -1070,6 +1169,7 @@ beo:ReinforcingBar-MAIN
 .
 beo:ReinforcingBar-PUNCHING
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Punching"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1RO$_IvNP7eQABna$VzMm_> ;
   rdfs:seeAlso ifc:IfcReinforcingBarEnumType ;
@@ -1077,6 +1177,7 @@ beo:ReinforcingBar-PUNCHING
 .
 beo:ReinforcingBar-RING
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Ring"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2zA8DFnW5B8hiBjIlXcktx> ;
   rdfs:seeAlso ifc:IfcReinforcingBarEnumType ;
@@ -1084,6 +1185,7 @@ beo:ReinforcingBar-RING
 .
 beo:ReinforcingBar-SHEAR
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Shear"@en ;
   rdfs:label "skive"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/220Wv8D4n11hjTIo_DzfBR> ;
@@ -1092,6 +1194,7 @@ beo:ReinforcingBar-SHEAR
 .
 beo:ReinforcingBar-STUD
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Stud"@en ;
   rdfs:label "stender"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3cWXnrQEvAfRCh9LjK26$R> ;
@@ -1101,6 +1204,7 @@ beo:ReinforcingBar-STUD
 beo:ReinforcingElement
   rdf:type owl:Class ;
   rdfs:comment "a reinforcing element represents bars, wires, strands, meshes, tendons, and other components embedded in concrete in such a manner that the reinforcement and the concrete act together in resisting forces."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Bewehrung"@de-de ;
   rdfs:label "Reinforcing Element"@en ;
   rdfs:label "elément d'armature"@fr-fr ;
@@ -1111,6 +1215,7 @@ beo:ReinforcingElement
 beo:ReinforcingMesh
   rdf:type owl:Class ;
   rdfs:comment "a reinforcing mesh is a series of longitudinal and transverse wires or bars of various gauges, arranged at right angles to each other and welded at all points of intersection; usually used for concrete slab reinforcement. it is also known as welded wire fabric. in scope are plane meshes as well as bent meshes."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Bewehrungsmatte"@de-de ;
   rdfs:label "Reinforcing Mesh"@en ;
   rdfs:label "treillis"@fr-fr ;
@@ -1121,6 +1226,7 @@ beo:ReinforcingMesh
 beo:Roof
   rdf:type owl:Class ;
   rdfs:comment "A covering of the top part of a building. Protects the building against the effects of weather."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Dach"@de-de ;
   rdfs:label "Dak"@nl ;
   rdfs:label "Roof"@en ;
@@ -1132,6 +1238,7 @@ beo:Roof
 .
 beo:Roof-BARREL_ROOF
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Barrel Roof"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/172RLdein1b8WIbTtDLVbc> ;
   rdfs:seeAlso ifc:IfcRoofEnumType ;
@@ -1139,6 +1246,7 @@ beo:Roof-BARREL_ROOF
 .
 beo:Roof-BUTTERFLY_ROOF
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Butterfly Roof"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2W6yLK2r968h2TWfGC2xWu> ;
   rdfs:seeAlso ifc:IfcRoofEnumType ;
@@ -1146,6 +1254,7 @@ beo:Roof-BUTTERFLY_ROOF
 .
 beo:Roof-DOME_ROOF
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Dome Roof"@en ;
   rdfs:label "kuppeltak"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3UcE2aJPP4ewOoRn29unfZ> ;
@@ -1154,6 +1263,7 @@ beo:Roof-DOME_ROOF
 .
 beo:Roof-FLAT_ROOF
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Flat Roof"@en ;
   rdfs:label "flatt tak"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3IeKrtrMz2SQN7qpJt82e5> ;
@@ -1162,6 +1272,7 @@ beo:Roof-FLAT_ROOF
 .
 beo:Roof-FREEFORM
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Free Form Roof"@en ;
   rdfs:label "friform tak"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2KVHvK7iXAEfKlD5hGIFEc> ;
@@ -1170,6 +1281,7 @@ beo:Roof-FREEFORM
 .
 beo:Roof-GABLE_ROOF
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Gable Roof"@en ;
   rdfs:label "gavl"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0gHJNRNhz6LOTHVbnW$nEj> ;
@@ -1178,6 +1290,7 @@ beo:Roof-GABLE_ROOF
 .
 beo:Roof-GAMBREL_ROOF
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Gambrel Roof"@en ;
   rdfs:label "gambrel tak"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2BnDhKP1HF3vXxnwqccewa> ;
@@ -1186,6 +1299,7 @@ beo:Roof-GAMBREL_ROOF
 .
 beo:Roof-HIPPED_GABLE_ROOF
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Hipped Gable Roof"@en ;
   rdfs:label "valm/saltak"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3Su_2ncLX1Oes0r3fNr4uE> ;
@@ -1194,6 +1308,7 @@ beo:Roof-HIPPED_GABLE_ROOF
 .
 beo:Roof-HIP_ROOF
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Hip Roof"@en ;
   rdfs:label "valmtak"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0waejMcyT3zwP6nRClvfSx> ;
@@ -1202,6 +1317,7 @@ beo:Roof-HIP_ROOF
 .
 beo:Roof-MANSARD_ROOF
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Mansard Roof"@en ;
   rdfs:label "mansardtak"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1hB_MPg3j35vRsm_vutjD2> ;
@@ -1210,6 +1326,7 @@ beo:Roof-MANSARD_ROOF
 .
 beo:Roof-PAVILION_ROOF
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Pavilion Roof"@en ;
   rdfs:label "paviljongtak"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/11Ltv09Eb7lRJW184fZ9gF> ;
@@ -1218,6 +1335,7 @@ beo:Roof-PAVILION_ROOF
 .
 beo:Roof-RAINBOW_ROOF
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Rainbow Roof"@en ;
   rdfs:label "buetak"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1MnaPoqUb0L8PGqS6yHzbq> ;
@@ -1226,6 +1344,7 @@ beo:Roof-RAINBOW_ROOF
 .
 beo:Roof-SHED_ROOF
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Shed Roof"@en ;
   rdfs:label "pulttak"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3GsCyHvinDMPWmecHluOEq> ;
@@ -1236,6 +1355,7 @@ beo:ShadingDevice
   rdf:type owl:Class ;
   rdfs:comment """Purpose built devices to protect from the sunlight, from natural light, or screening them from view. Shading devices can form part of the facade or can be mounted inside the building, they can be fixed or operable.
 """@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Afskærmningsanordning"@da ;
   rdfs:label "Shading Device"@en ;
   rdfs:label "Sonnenschutz festeingebaut"@de-de ;
@@ -1251,6 +1371,7 @@ beo:ShadingDevice-AWNING
   rdfs:comment "a rooflike shelter of canvas or other material extending over a doorway, from the top of a window, over a deck, etc., in order to provide protection, as from the sun"@en ;
   rdfs:comment "product made of fabric/material, located externally, above, in front of, or within an opening and extending in a horizontal and/or sloping and/or vertical plane"@en ;
   rdfs:comment "produkt laget av stoff/materiale som plasseres utvendig over, foran eller i en åpning, og som stikker ut i et horisontalt og/eller skrånende og/eller vertikalt plan"@nb-no ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Awning"@en ;
   rdfs:label "Zonwering"@nl-nl ;
   rdfs:label "markise"@nb-no ;
@@ -1262,6 +1383,7 @@ beo:ShadingDevice-JALOUSIE
   rdf:type owl:Class ;
   rdfs:comment "Solavskjerming, Persienner"@nb-no ;
   rdfs:comment "product consisting of horizontal slats which can be tilted. it may be retracted by raising and stacking the slats."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Jalousie"@de-de ;
   rdfs:label "Jalousie"@en ;
   rdfs:label "blinds"@en ;
@@ -1284,6 +1406,7 @@ beo:ShadingDevice-SHUTTER
   rdfs:comment "Solavskjerming, Solgardin"@nb-no ;
   rdfs:comment "Sun-shading device"@en ;
   rdfs:comment "product installed either internally or externally to provide additional covering and/or protection to an opening"@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Abschluß"@de-de ;
   rdfs:label "Shutter"@en ;
   rdfs:label "fermeture"@fr-fr ;
@@ -1300,6 +1423,7 @@ beo:Slab
   rdf:type owl:Class ;
   rdfs:comment """A component of the construction that normally encloses a space vertically. May provide the lower support (floor) or upper construction (roof slab) in any space in a building.
 Only the core or constructional part of this construction is considered to be a slab. The upper finish (flooring, roofing) and the lower finish (ceiling, suspended ceiling) are considered to be coverings. """@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Decke / Dachfläche / Bodenplatte"@de-de ;
   rdfs:label "Dæk"@da ;
   rdfs:label "Plaat"@nl ;
@@ -1312,6 +1436,7 @@ Only the core or constructional part of this construction is considered to be a 
 .
 beo:Slab-BASESLAB
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Base Slab"@en ;
   rdfs:label "støpt fundament"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1hBroEIeL9neS3mSSGZiyC> ;
@@ -1320,6 +1445,7 @@ beo:Slab-BASESLAB
 .
 beo:Slab-FLOOR
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Floor"@en ;
   rdfs:label "dekke"@nb-no ;
   rdfs:label "gulv"@nb-no ;
@@ -1329,6 +1455,7 @@ beo:Slab-FLOOR
 .
 beo:Slab-LANDING
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Landing"@en ;
   rdfs:label "repo"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3tQbZvvrfA8OUjU1kc2rUZ> ;
@@ -1338,6 +1465,7 @@ beo:Slab-LANDING
 beo:Slab-ROOF
   rdf:type owl:Class ;
   rdfs:comment "A covering of the top part of a building. Protects the building against the effects of weather."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Dach"@de-de ;
   rdfs:label "Roof"@en ;
   rdfs:label "flatt tak"@nb-no ;
@@ -1349,6 +1477,7 @@ beo:Slab-ROOF
 beo:Stair
   rdf:type owl:Class ;
   rdfs:comment "A vertical passageway allowing occupants to walk (step) from one floor level to another floor level at a different elevation. May include a landing as an intermediate floor slab."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Stair"@en ;
   rdfs:label "Trap"@nl ;
   rdfs:label "Trap"@nl-nl ;
@@ -1364,6 +1493,7 @@ beo:Stair
 beo:Stair-CURVED_RUN_STAIR
   rdf:type owl:Class ;
   rdfs:comment "a stair extending from one level to another without turns or winders. the stair is consisting of one curved flight."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Curved Run Stair"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1lkxIX8Gj23Bi50H2qpZB9> ;
   rdfs:seeAlso ifc:IfcStairEnumType ;
@@ -1372,6 +1502,7 @@ beo:Stair-CURVED_RUN_STAIR
 beo:Stair-DOUBLE_RETURN_STAIR
   rdf:type owl:Class ;
   rdfs:comment "a stair having one straight flight to a wide quarterspace landing, and two side flights from that landing into opposite directions. the stair is making a 90° turn. the direction of traffic is determined by the walking line."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Double Return Stair"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3NNCQTceL7Uf8ZhJf40gs9> ;
   rdfs:seeAlso ifc:IfcStairEnumType ;
@@ -1380,6 +1511,7 @@ beo:Stair-DOUBLE_RETURN_STAIR
 beo:Stair-HALF_TURN_STAIR
   rdf:type owl:Class ;
   rdfs:comment "a stair making a 180° turn, consisting of two straight flights connected by a halfspace landing. the orientation of the turn is determined by the walking line."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Half Turn Stair"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3YmaH1onP90PM6kEWHUjFv> ;
   rdfs:seeAlso ifc:IfcStairEnumType ;
@@ -1387,6 +1519,7 @@ beo:Stair-HALF_TURN_STAIR
 .
 beo:Stair-HALF_WINDING_STAIR
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Half Winding Stair"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0Vw081Hfz1AQne1V5CsfUA> ;
   rdfs:seeAlso ifc:IfcStairEnumType ;
@@ -1395,6 +1528,7 @@ beo:Stair-HALF_WINDING_STAIR
 beo:Stair-QUARTER_TURN_STAIR
   rdf:type owl:Class ;
   rdfs:comment "a stair making a 90° turn, consisting of two straight flights connected by a quarterspace landing. the direction of the turn is determined by the walking line."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Quarter Turn Stair"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1IEbbDJDHAFQb9SZweXH3x> ;
   rdfs:seeAlso ifc:IfcStairEnumType ;
@@ -1402,6 +1536,7 @@ beo:Stair-QUARTER_TURN_STAIR
 .
 beo:Stair-QUARTER_WINDING_STAIR
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Quarter Winding Stair"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3PzSNWl5T1EgMXH$Tn6uuQ> ;
   rdfs:seeAlso ifc:IfcStairEnumType ;
@@ -1409,6 +1544,7 @@ beo:Stair-QUARTER_WINDING_STAIR
 .
 beo:Stair-SPIRAL_STAIR
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Spiral Stair"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0UwQe$TXP47AhE5k0mZzCe> ;
   rdfs:seeAlso ifc:IfcStairEnumType ;
@@ -1416,6 +1552,7 @@ beo:Stair-SPIRAL_STAIR
 .
 beo:Stair-STRAIGHT_RUN_STAIR
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Straight Run Stair"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3p4WSJmK96Oe6HXE$jmWWy> ;
   rdfs:seeAlso ifc:IfcStairEnumType ;
@@ -1423,6 +1560,7 @@ beo:Stair-STRAIGHT_RUN_STAIR
 .
 beo:Stair-THREE_QUARTER_TURN_STAIR
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Three Quarter Turn Stair"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2jTG3NRNHCyhbsMbwK38v5> ;
   rdfs:seeAlso ifc:IfcStairEnumType ;
@@ -1430,6 +1568,7 @@ beo:Stair-THREE_QUARTER_TURN_STAIR
 .
 beo:Stair-THREE_QUARTER_WINDING_STAIR
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Three Quarter Winding Stair"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0rPjGYk_LFnOayZFsJg3tr> ;
   rdfs:seeAlso ifc:IfcStairEnumType ;
@@ -1437,6 +1576,7 @@ beo:Stair-THREE_QUARTER_WINDING_STAIR
 .
 beo:Stair-TWO_CURVED_RUN_STAIR
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Two Curved Run Stair"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0cSo1dkGL8NunRzp$sQsTc> ;
   rdfs:seeAlso ifc:IfcStairEnumType ;
@@ -1445,6 +1585,7 @@ beo:Stair-TWO_CURVED_RUN_STAIR
 beo:Stair-TWO_QUARTER_TURN_STAIR
   rdf:type owl:Class ;
   rdfs:comment "a stair making a 180° turn, consisting of three straight flights connected by two quarterspace landings. the direction of the turns is determined by the walking line"@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Two Quarter Turn Stair"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0mW4DtraD3SA57fcejW4cS> ;
   rdfs:seeAlso ifc:IfcStairEnumType ;
@@ -1452,6 +1593,7 @@ beo:Stair-TWO_QUARTER_TURN_STAIR
 .
 beo:Stair-TWO_QUARTER_WINDING_STAIR
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Two Quarter Winding Stair"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3SSlfuJ_nA49lzIOhda6Xr> ;
   rdfs:seeAlso ifc:IfcStairEnumType ;
@@ -1460,6 +1602,7 @@ beo:Stair-TWO_QUARTER_WINDING_STAIR
 beo:Stair-TWO_STRAIGHT_RUN_STAIR
   rdf:type owl:Class ;
   rdfs:comment "a straight stair consisting of two straight flights without turns but with one landing."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Two Straight Run Stair"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3VuqGJNz160B87TSrFhrM4> ;
   rdfs:seeAlso ifc:IfcStairEnumType ;
@@ -1468,6 +1611,7 @@ beo:Stair-TWO_STRAIGHT_RUN_STAIR
 beo:StairFlight
   rdf:type owl:Class ;
   rdfs:comment "An assembly of building components in a single \"run\" of stair steps (not interrupted by a landing)."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Stair Flight"@en ;
   rdfs:label "Volée d'escalier"@fr-fr ;
   rdfs:label "trap"@nl-nl ;
@@ -1480,6 +1624,7 @@ beo:StairFlight
 .
 beo:StairFlight-CURVED
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Curved"@en ;
   rdfs:label "trapp - kurvet"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2DeCDqEVHDjwFaGVpyNC89> ;
@@ -1488,6 +1633,7 @@ beo:StairFlight-CURVED
 .
 beo:StairFlight-FREEFORM
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Freeform"@en ;
   rdfs:label "friform tak"@nb-no ;
   rdfs:label "friform"@nb-no ;
@@ -1497,6 +1643,7 @@ beo:StairFlight-FREEFORM
 .
 beo:StairFlight-SPIRAL
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Spiral"@en ;
   rdfs:label "scroll"@en ;
   rdfs:label "spiral"@nb-no ;
@@ -1507,6 +1654,7 @@ beo:StairFlight-SPIRAL
 .
 beo:StairFlight-STRAIGHT
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Straight"@en ;
   rdfs:label "rett"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/247CeErMz16BZyRhwbAOdR> ;
@@ -1515,6 +1663,7 @@ beo:StairFlight-STRAIGHT
 .
 beo:StairFlight-WINDER
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Winder"@en ;
   rdfs:label "svingtrapp"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3XVLP1SZf8YQfshhp0Vjph> ;
@@ -1524,6 +1673,7 @@ beo:StairFlight-WINDER
 beo:Tendon
   rdf:type owl:Class ;
   rdfs:comment "a tendon is a steel element such as a wire, cable, bar, rod or strand used to impart prestress to concrete when the element is tensioned."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Spannglied"@de-de ;
   rdfs:label "Tendon"@en ;
   rdfs:label "cable"@fr-fr ;
@@ -1533,6 +1683,7 @@ beo:Tendon
 .
 beo:Tendon-BAR
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Bar"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3seMZXSSH4YfQCPjOcaoZG> ;
   rdfs:seeAlso ifc:IfcTendonEnumType ;
@@ -1540,6 +1691,7 @@ beo:Tendon-BAR
 .
 beo:Tendon-COATED
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Coated"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1WLzEVaRD77A5KPd3$v9DB> ;
   rdfs:seeAlso ifc:IfcTendonEnumType ;
@@ -1547,6 +1699,7 @@ beo:Tendon-COATED
 .
 beo:Tendon-STRAND
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Strand"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1d4UrJXi92ivdu3FflJ62n> ;
   rdfs:seeAlso ifc:IfcTendonEnumType ;
@@ -1554,6 +1707,7 @@ beo:Tendon-STRAND
 .
 beo:Tendon-WIRE
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Wire"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1NCnQvMs9AaRqwexu7DofF> ;
   rdfs:seeAlso ifc:IfcTendonEnumType ;
@@ -1562,6 +1716,7 @@ beo:Tendon-WIRE
 beo:TendonAnchor
   rdf:type owl:Class ;
   rdfs:comment "a tendon anchor is the end connection for tendons in prestressed or posttensioned concrete."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Spanngliedanker"@de-de ;
   rdfs:label "Tendon Anchor"@en ;
   rdfs:label "ancrage"@fr-fr ;
@@ -1571,6 +1726,7 @@ beo:TendonAnchor
 .
 beo:TendonAnchor-COUPLER
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Coupler"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2yrjArQAnBL9EdTqIc7Uv7> ;
   rdfs:seeAlso ifc:IfcTendonAnchorEnumType ;
@@ -1578,6 +1734,7 @@ beo:TendonAnchor-COUPLER
 .
 beo:TendonAnchor-FIXED_END
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Fixed End"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/133YYoKAv8mBxccTJtzWju> ;
   rdfs:seeAlso ifc:IfcTendonAnchorEnumType ;
@@ -1585,6 +1742,7 @@ beo:TendonAnchor-FIXED_END
 .
 beo:TendonAnchor-TENSIONING_END
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Tensioning End"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2Bp8P7qwn1Hg1BaRHyCQP4> ;
   rdfs:seeAlso ifc:IfcTendonAnchorEnumType ;
@@ -1598,6 +1756,7 @@ common properties within shared property sets
 common material information
 common shape representations
 It is used to define a transport element specification (i.e. the specific product information that is common to all occurrences of that beam type). """@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Beförderungsgerät"@de-de ;
   rdfs:label "Equipement de transport"@fr-fr ;
   rdfs:label "Transport Element"@en ;
@@ -1611,6 +1770,7 @@ beo:TransportElement-CRANEWAY
   rdfs:comment "An artefact for raising, shifting and lowering heavy weights by means of a projecting swinging arm or with hoisting mechanism supported on an overhead track.        "@en ;
   rdfs:comment "a crane way system, normally including the crane rails, fasteners and the crane. it is primarily used to move heavy goods in a factory or other industry buildings"@en ;
   rdfs:comment "a crane way system, normally including the crane rails, fasteners and the crane. it is primarily used to move heavy goods in a factory or other industry buildings"@en-gb ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Craneway"@en ;
   rdfs:label "kran"@nb-no ;
   rdfs:label "kranbane"@nb-no ;
@@ -1622,6 +1782,7 @@ beo:TransportElement-ELEVATOR
   rdf:type owl:Class ;
   rdfs:comment "a permanent lifting equipment serving defined landing levels, comprising a car, whose dimensions and means of construction clearly permit the access of persons; running at least partially between rigid vertical guides or guides whose inclination to the ve"@en ;
   rdfs:comment "permanent løfteutstyr som betjener definerte etasjenivåer, og som består av en stol hvis dimensjoner og konstruksjonsmåte klart gir adgang for personer, og som minst delvis beveger seg mellom stive, vertikale føringsskinner eller føringer hvor hellingen f"@nb-no ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Aufzug"@de-de ;
   rdfs:label "Elevator"@en ;
   rdfs:label "ascenseur"@fr-fr ;
@@ -1635,6 +1796,7 @@ beo:TransportElement-ELEVATOR
 beo:TransportElement-ESCALATOR
   rdf:type owl:Class ;
   rdfs:comment "power-driven, inclined, continuous moving stairway used for raising or lowering persons in which the user carrying surface (e.g. steps) remains horizontal"@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Escalator"@en ;
   rdfs:label "Fahrtreppe"@de-de ;
   rdfs:label "Roltrap"@nl-nl ;
@@ -1649,6 +1811,7 @@ beo:TransportElement-LIFTINGGEAR
   rdf:type owl:Class ;
   rdfs:comment "a device used for lifting or lowering heavy goods. It may be manually operated or electrically or pneumatically driven"@en ;
   rdfs:comment "a device used for lifting or lowering heavy goods. It may be manually operated or electrically or pneumatically driven"@en-gb ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Lifting Gear"@en ;
   rdfs:label "løfteinretning"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3qsVNaK3r6Uw2tccQdpTmo> ;
@@ -1657,6 +1820,7 @@ beo:TransportElement-LIFTINGGEAR
 .
 beo:TransportElement-MOVINGWALKWAY
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Moving Walkway"@en ;
   rdfs:label "rullebånd"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0Fn7lcsC5As81fnfma0hsy> ;
@@ -1666,6 +1830,7 @@ beo:TransportElement-MOVINGWALKWAY
 beo:VibrationIsolator
   rdf:type owl:Class ;
   rdfs:comment "A device used to minimize the effects of vibration transmissibility in a building."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Schwingungsisolator"@de-de ;
   rdfs:label "Vibration Isolator"@en ;
   rdfs:label "isolateur de vibrations"@fr-fr ;
@@ -1680,6 +1845,7 @@ beo:VibrationIsolator-COMPRESSION
   rdf:type owl:Class ;
   rdfs:comment "compression type vibration isolator"@en ;
   rdfs:comment "compression type vibration isolator"@en-gb ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Compression-based vibration isolator"@en ;
   rdfs:label "kompresjon"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0EwSGR8PX1z9zHS_KHBRcA> ;
@@ -1690,6 +1856,7 @@ beo:VibrationIsolator-SPRING
   rdf:type owl:Class ;
   rdfs:comment "spring type vibration isolator"@en ;
   rdfs:comment "spring type vibration isolator"@en-gb ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Spring"@en ;
   rdfs:label "fjær"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3cKim0GJf3mxz7EqVVfQ8u> ;
@@ -1699,6 +1866,7 @@ beo:VibrationIsolator-SPRING
 beo:Wall
   rdf:type owl:Class ;
   rdfs:comment "A vertical construction that bounds or subdivides spaces. Usually vertical, or nearly vertical, planar elements, often designed to bear structural loads. However not required to be load bearing."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Muur"@nl ;
   rdfs:label "Væg"@da ;
   rdfs:label "Wall"@en ;
@@ -1714,6 +1882,7 @@ beo:Wall-ELEMENTEDWALL
   rdf:type owl:Class ;
   rdfs:comment "a stud wall framed with studs and faced with sheetings, sidings, wallboard, or plasterwork"@en ;
   rdfs:comment "a stud wall framed with studs and faced with sheetings, sidings, wallboard, or plasterwork"@en-gb ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Elemented Wall"@en ;
   rdfs:label "elementvegg"@nb-no ;
   rdfs:label "systemvegg"@nb-no ;
@@ -1723,6 +1892,7 @@ beo:Wall-ELEMENTEDWALL
 .
 beo:Wall-MOVABLE
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Flyttbar"@nb-no ;
   rdfs:label "Movable Wall"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2nSQnTH_18RB$MO5daYxD0> ;
@@ -1733,6 +1903,7 @@ beo:Wall-PARAPET
   rdf:type owl:Class ;
   rdfs:comment """Parapet/brystning
 Opphøyet kant som stikker opp over tak"""@nb-no ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Balustrade"@nl-nl ;
   rdfs:label "Borstwering"@nl-nl ;
   rdfs:label "Parapet Wall"@en ;
@@ -1746,6 +1917,7 @@ Opphøyet kant som stikker opp over tak"""@nb-no ;
 .
 beo:Wall-PARTITIONING
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Partitioning Wall"@en ;
   rdfs:label "skillevegg"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3DBpG2jff4GAXiQp8trskt> ;
@@ -1754,6 +1926,7 @@ beo:Wall-PARTITIONING
 .
 beo:Wall-PLUMBINGWALL
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Plumbing Wall"@en ;
   rdfs:label "rør i vegg"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1YFt0DFB99uxbJnz4oFiew> ;
@@ -1764,6 +1937,7 @@ beo:Wall-POLYGONAL
   rdf:type owl:Class ;
   rdfs:comment "a polygonal wall, extruded vertically, where the wall thickness varies along the wall path"@en ;
   rdfs:comment "a polygonal wall, extruded vertically, where the wall thickness varies along the wall path"@en-gb ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Polygonal Wall"@en ;
   rdfs:label "mangekantet"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0cJEMJHYj6Hh7Q1xNPsiIf> ;
@@ -1772,6 +1946,7 @@ beo:Wall-POLYGONAL
 .
 beo:Wall-SHEAR
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Shear Wall"@en ;
   rdfs:label "skive"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0MAk1miOTAJQpI0VGyMnjS> ;
@@ -1780,6 +1955,7 @@ beo:Wall-SHEAR
 .
 beo:Wall-SOLIDWALL
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Solid Wall"@en ;
   rdfs:label "massiv vegg"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2J1xt_ADz7heqvTyh5YGEM> ;
@@ -1788,6 +1964,7 @@ beo:Wall-SOLIDWALL
 .
 beo:Wall-STANDARD
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Standard Wall"@en ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2HWHt8Yiz4m9UzhlqVFLeO> ;
   rdfs:seeAlso ifc:IfcWallEnumType ;
@@ -1796,6 +1973,7 @@ beo:Wall-STANDARD
 beo:WallElementedCase
   rdf:type owl:Class ;
   rdfs:comment "A wall with certain constraints for the provision of its components."@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Elemented Wall Case"@en ;
   rdfs:label "Mur composite"@fr-fr ;
   rdfs:label "Wand elementiert"@de-de ;
@@ -1822,6 +2000,7 @@ beo:Window
   rdfs:comment "seinä- tai kattoaukon sulkeva, valoa läpipäästävä rakenneosa varustettuna mahdollisin ilmanvaihto-ominaisuuksin"@fi-fi ;
   rdfs:comment "une construction destinée à fermer une ouverture verticale ou quasi-verticale dans un mur ou un toit en pente qui laissera passer la lumière et pourra fournir une ventilation. souvent constituée d'un panneau vitré monté sur un châssis permettant son ouverture et sa fermeture."@fr-fr ;
   rdfs:comment "строителен компонент за затваряне на отвор в стена или скатен покрив, който служи за осветяване и евентуално за проветряване"@bg-bg ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Fenster"@de-de ;
   rdfs:label "Raam"@nl ;
   rdfs:label "Raam"@nl-nl ;
@@ -1849,6 +2028,7 @@ beo:Window
 beo:Window-LIGHTDOME
   rdf:type owl:Class ;
   rdfs:comment "a special window that lies horizonally in a roof slab opening"@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Light dome"@en ;
   rdfs:label "lyskuppel"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3aXmro5wX3FeEqYU7Y7w5X> ;
@@ -1859,6 +2039,7 @@ beo:Window-SKYLIGHT
   rdf:type owl:Class ;
   rdfs:comment "Overlys"@nb-no ;
   rdfs:comment "construction for closing an opening in a flat roof or low pitched roof, intended primarily for lighting and consisting of a frame and glazing"@en ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Daklicht"@nl-nl ;
   rdfs:label "Skylight"@en ;
   rdfs:label "overlys"@nb-no ;
@@ -1891,6 +2072,7 @@ Construction for closing a vertical or near vertical opening in a wall or pitche
   rdfs:comment "space access object for light entry only"@en ;
   rdfs:comment "une construction destinée à fermer une ouverture verticale ou quasi-verticale dans un mur ou un toit en pente qui laissera passer la lumière et pourra fournir une ventilation. souvent constituée d'un panneau vitré monté sur un châssis permettant son ouverture et sa fermeture."@fr-fr ;
   rdfs:comment "строителен компонент за затваряне на отвор в стена или скатен покрив, който служи за осветяване и евентуално за проветряване"@bg-bg ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/buildingelement> ;
   rdfs:label "Fenster"@de-de ;
   rdfs:label "Raam"@nl-nl ;
   rdfs:label "Window"@en ;

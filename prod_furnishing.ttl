@@ -51,14 +51,15 @@
   vann:preferredNamespacePrefix "furn" ;
   vann:preferredNamespaceUri "http://pi.pauwel.be/voc/furniture#" ;
   rdfs:comment """
-- Version 0.3.0: changed ccc:ConstructionComponent into contax:ConstructionComponent
+- Version 0.3.0: changed ccc:ConstructionComponent into contax:ConstructionComponent. Added rdfs:isDefinedBy
 - Version 0.2.0: changed all subclasses of schema:Product and gr:SomeItems into a subclass of ccc:ConstructionComponent
 - Version 0.1.1: small changes and corrections (completed onto metadata; updated ifcOWL URI; added missing language tags to strings)
 - Version 0.1.0: initial version"""@en ;
-  owl:versionInfo "0.2.0" ;
+  owl:versionInfo "0.3.0" ;
 .
 furn:Bed
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
   rdfs:label "Bed"@en ;
   rdfs:seeAlso ifc:IfcFurnitureEnumType ;
   rdfs:subClassOf furn:Furniture ;
@@ -66,6 +67,7 @@ furn:Bed
 .
 furn:Chair
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
   rdfs:label "Chair"@en ;
   rdfs:label "Stol"@da ;
   rdfs:seeAlso ifc:IfcFurnitureEnumType ;
@@ -74,6 +76,7 @@ furn:Chair
 .
 furn:Closet
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
   rdfs:label "Closet"@en ;
   rdfs:label "Skab"@da ;
   rdfs:subClassOf furn:Furniture ;
@@ -81,30 +84,35 @@ furn:Closet
 .
 furn:Desk
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
   rdfs:label "Desk"@en ;
   rdfs:seeAlso ifc:IfcFurnitureEnumType ;
   rdfs:subClassOf furn:Furniture ;
 .
 furn:FileCabinet
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
   rdfs:label "FileCabinet"@en ;
   rdfs:seeAlso ifc:IfcFurnitureEnumType ;
   rdfs:subClassOf furn:Furniture ;
 .
 furn:Furniture
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
   rdfs:label "Furniture"@en ;
   rdfs:seeAlso ifc:IfcFurnishingElement ;
   rdfs:subClassOf contax:ConstructionComponent ;
 .
 furn:Shelf
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
   rdfs:label "Shelf"@en ;
   rdfs:seeAlso ifc:IfcFurnitureEnumType ;
   rdfs:subClassOf furn:Furniture ;
 .
 furn:Sofa
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
   rdfs:label "Sofa"@da ;
   rdfs:label "Sofa"@en ;
   rdfs:seeAlso ifc:IfcFurnitureEnumType ;
@@ -112,6 +120,7 @@ furn:Sofa
 .
 furn:Table
   rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
   rdfs:label "Bord"@da ;
   rdfs:label "Table"@en ;
   rdfs:seeAlso ifc:IfcFurnitureEnumType ;
