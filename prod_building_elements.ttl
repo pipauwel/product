@@ -4,7 +4,7 @@
 @prefix : <http://pi.pauwel.be/voc/buildingelement#> .
 @prefix beo: <http://pi.pauwel.be/voc/buildingelement#> .
 @prefix cc: <http://creativecommons.org/ns#> .
-@prefix ccc: <https://w3id.org/ccc#> .
+@prefix contax: <https://w3id.org/con-tax#> .
 @prefix dbr: <http://dbpedia.org/resource/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -45,11 +45,12 @@
     ] ;
   dcterms:description "The Building Element Ontology (BEO) provides an ontology based on the IfcBuildingElement, IfcElementComponent and IfcTransportElement subtrees in the IFC specification, containing a taxonomy of classes that allow to define common building elements."@en ;
   dcterms:issued "2018-12-27"^^xsd:date ;
-  dcterms:modified "2020-07-29"^^xsd:date ;
+  dcterms:modified "2020-08-11"^^xsd:date ;
   dcterms:title "BEO: Building Element Ontology"@en ;
   vann:preferredNamespacePrefix "beo" ;
   vann:preferredNamespaceUri "http://pi.pauwel.be/voc/buildingelement#" ;
   rdfs:comment """- TODO: remove similar labels/comments with same language tag
+- Version 0.3.0: changed ccc:ConstructionComponent into contax:ConstructionComponent and added contax:ConstructionSubComponent
 - Version 0.2.0: changed all subclasses of schema:Product and gr:SomeItems into a subclass of ccc:ConstructionComponent
 - Version 0.1.1: small changes and corrections (completed onto metadata; changed labels containing a bSDD URL to URIs connected via rdfs:seeAlso; updated ifcOWL URI; replace erroneous language tags (remove @ifc-2x4); added gr:SomeItems class and make beo:ElementComponent and beo:TransportElement a subclass (similar to beo:BuildingElement); added missing language tags to strings)
 - Version 0.1.0: initial version"""@en ;
@@ -155,7 +156,7 @@ beo:BuildingElement
   rdfs:label "Elément de construction"@fr-fr ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2AFYKXkEn7RxYuvbduGfUV> ;
   rdfs:seeAlso ifc:IfcBuildingElement ;
-  rdfs:subClassOf ccc:ConstructionComponent ;
+  rdfs:subClassOf contax:ConstructionComponent ;
 .
 beo:BuildingElementPart
   rdf:type owl:Class ;
@@ -489,7 +490,7 @@ beo:ElementComponent
   rdfs:label "Elementenbestandteil"@de-de ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2pKpW0qSeHuO00025QrE$V> ;
   rdfs:seeAlso ifc:IfcElementComponent ;
-  rdfs:subClassOf ccc:ConstructionComponent ;
+  rdfs:subClassOf contax:ConstructionSubComponents ;
 .
 beo:Fastener
   rdf:type owl:Class ;
@@ -1603,7 +1604,7 @@ It is used to define a transport element specification (i.e. the specific produc
   rdfs:label "transportelement"@nb-no ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3ZSVc0qX4HuO00025QrE$V> ;
   rdfs:seeAlso ifc:IfcTransportElement ;
-  rdfs:subClassOf ccc:ConstructionComponent ;
+  rdfs:subClassOf contax:ConstructionComponent ;
 .
 beo:TransportElement-CRANEWAY
   rdf:type owl:Class ;
@@ -1963,6 +1964,6 @@ foaf:Person
 foaf:name
   rdf:type owl:DatatypeProperty ;
 .
-ccc:ConstructionComponent
+contax:ConstructionComponent
   rdf:type owl:Class ;
 .

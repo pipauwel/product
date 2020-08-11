@@ -3,7 +3,7 @@
 
 @prefix : <http://pi.pauwel.be/voc/furniture#> .
 @prefix cc: <http://creativecommons.org/ns#> .
-@prefix ccc: <https://w3id.org/ccc#> .
+@prefix contax: <https://w3id.org/con-tax#> .
 @prefix dbr: <http://dbpedia.org/resource/> .
 @prefix dce: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -50,7 +50,9 @@
   dcterms:title "FURN: Furniture Ontology"@en ;
   vann:preferredNamespacePrefix "furn" ;
   vann:preferredNamespaceUri "http://pi.pauwel.be/voc/furniture#" ;
-  rdfs:comment """- Version 0.2.0: changed all subclasses of schema:Product and gr:SomeItems into a subclass of ccc:ConstructionComponent
+  rdfs:comment """
+- Version 0.3.0: changed ccc:ConstructionComponent into contax:ConstructionComponent
+- Version 0.2.0: changed all subclasses of schema:Product and gr:SomeItems into a subclass of ccc:ConstructionComponent
 - Version 0.1.1: small changes and corrections (completed onto metadata; updated ifcOWL URI; added missing language tags to strings)
 - Version 0.1.0: initial version"""@en ;
   owl:versionInfo "0.2.0" ;
@@ -93,7 +95,7 @@ furn:Furniture
   rdf:type owl:Class ;
   rdfs:label "Furniture"@en ;
   rdfs:seeAlso ifc:IfcFurnishingElement ;
-  rdfs:subClassOf ccc:ConstructionComponent ;
+  rdfs:subClassOf contax:ConstructionComponent ;
 .
 furn:Shelf
   rdf:type owl:Class ;
@@ -155,6 +157,6 @@ foaf:Person
 foaf:name
   rdf:type owl:DatatypeProperty ;
 .
-ccc:ConstructionComponent
+contax:ConstructionComponent
   rdf:type owl:Class ;
 .

@@ -3,7 +3,7 @@
 
 @prefix : <http://pi.pauwel.be/voc/distributionelement#> .
 @prefix cc: <http://creativecommons.org/ns#> .
-@prefix ccc: <https://w3id.org/ccc#> .
+@prefix contax: <https://w3id.org/con-tax#> .
 @prefix dbr: <http://dbpedia.org/resource/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -51,7 +51,9 @@
   dcterms:title "MEP: Distribution Element Ontology"@en ;
   vann:preferredNamespacePrefix "mep" ;
   vann:preferredNamespaceUri "http://pi.pauwel.be/voc/distributionelement#" ;
-  rdfs:comment """- Version 0.2.0: changed all subclasses of schema:Product and gr:SomeItems into a subclass of ccc:ConstructionComponent
+  rdfs:comment """
+- Version 0.3.0: changed ccc:ConstructionComponent into contax:ConstructionComponent
+- Version 0.2.0: changed all subclasses of schema:Product and gr:SomeItems into a subclass of ccc:ConstructionComponent
 - Version 0.1.1: small changes and corrections (completed onto metadata; changed labels containing a bSDD URL to URIs connected via rdfs:seeAlso; updated ifcOWL URI; replace erroneous language tags (remove @ifc-2x4); added missing language tags to strings; )
 - Version 0.1.0: initial version"""@en ;
   owl:versionInfo "0.2.0" ;
@@ -1449,7 +1451,7 @@ or electrical elements within a communication network"""@en ;
   rdfs:label "haustechnische Komponente (allgemein)"@de-de ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1UHiGqJXTCL9Ds53EKce2Y> ;
   rdfs:seeAlso ifc:IfcDistributionElement ;
-  rdfs:subClassOf ccc:ConstructionComponent ;
+  rdfs:subClassOf contax:ConstructionComponent ;
 .
 mep:DistributionFlowElement
   rdf:type owl:Class ;
@@ -4569,6 +4571,6 @@ foaf:Person
 foaf:name
   rdf:type owl:DatatypeProperty ;
 .
-ccc:ConstructionComponent
+contax:ConstructionComponent
   rdf:type owl:Class ;
 .

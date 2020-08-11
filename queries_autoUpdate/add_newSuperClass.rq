@@ -1,6 +1,6 @@
-@prefix ccc: <https://w3id.org/ccc#> # construction component classification
+@prefix ccc: <https://w3id.org/con-tax#> . # construction component classification
 INSERT {
-	?class rdfs:subClassOf ccc:ConstructionComponent .
+	?class rdfs:subClassOf contax:ConstructionComponent . # except for beo:ElementComponent which should be subclass of contax:ConstructionSubComponent
 }
 WHERE {
 	?class rdfs:subClassOf schema:Product .
