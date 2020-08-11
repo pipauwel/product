@@ -526,7 +526,7 @@ beo:ElementComponent
   rdfs:label "Elementenbestandteil"@de-de ;
   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2pKpW0qSeHuO00025QrE$V> ;
   rdfs:seeAlso ifc:IfcElementComponent ;
-  rdfs:subClassOf contax:ConstructionSubComponents ;
+  rdfs:subClassOf contax:ConstructionSubComponent ;
 .
 beo:Fastener
   rdf:type owl:Class ;
