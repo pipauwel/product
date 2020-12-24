@@ -59,7 +59,7 @@
                  "bjelke"@nb-no ,
                  "poutre"@fr-fr ;
       rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3zXEi0qSCHuO00025QrE$V> ,
-                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcBeam> .
+                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcBeam> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Beam-BEAM
@@ -75,7 +75,7 @@
                       "ligger"@nl-nl ,
                       "poutre"@fr-fr ;
            rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0KKIHMGYH7H8MAfgxbrxuV> ,
-                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcBeamEnumType> .
+                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcBeamEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Beam-HOLLOWCORE
@@ -108,7 +108,7 @@
                             "werkseitig hergestellte Hohlplatte"@de-de ,
                             "готови плочи с кухини"@bg-bg ;
                  rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2gzZKHqELB$gPVKajRAFXc> ,
-                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcBeamEnumType> .
+                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcBeamEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Beam-JOIST
@@ -118,7 +118,7 @@
             rdfs:label "Joiste"@en ,
                        "tilpasset bjelke"@nb-no ;
             rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1_zkjNhS95oA5oDSSTnEvO> ,
-                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcBeamEnumType> .
+                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcBeamEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Beam-LINTEL
@@ -128,7 +128,7 @@
              rdfs:label "Lintel"@en ,
                         "overdekking"@nb-no ;
              rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1PivEYC0575QGoaAFjN8c9> ,
-                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcBeamEnumType> .
+                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcBeamEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Beam-SPANDREL
@@ -138,7 +138,7 @@
                rdfs:label "Spandrel"@en ,
                           "brystning"@nb-no ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2$vr6UW$f3SwHilnemEZoH> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcBeamEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcBeamEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Beam-T_BEAM
@@ -148,7 +148,7 @@
              rdfs:label "T_Beam"@en ,
                         "t_bjelke"@nb-no ;
              rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1o9Up6wBr339DlpjWIWE$l> ,
-                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcBeamEnumType> .
+                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcBeamEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#BuildingElement
@@ -160,7 +160,7 @@
                             "Building Element"@en ,
                             "Elément de construction"@fr-fr ;
                  rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2AFYKXkEn7RxYuvbduGfUV> ,
-                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcBuildingElement> .
+                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcBuildingElement> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#BuildingElementPart
@@ -172,7 +172,7 @@
                                 "Teil eines Bauelements"@de-de ,
                                 "partie d'élément de construction"@fr-fr ;
                      rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3v2S1DH0r50BHIhWE6QHMZ> ,
-                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcBuildingElementPart> .
+                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcBuildingElementPart> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#BuildingElementPart-INSULATION
@@ -182,7 +182,7 @@
                                 rdfs:label "Insulation"@en ,
                                            "isolasjon"@nb-no ;
                                 rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2CF$o8Mgv2_xbw_kioa_YW> ,
-                                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcBuildingElementPartEnumType> .
+                                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcBuildingElementPartEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#BuildingElementPart-PRECASTPANEL
@@ -191,7 +191,7 @@
                                   rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                                   rdfs:label "Precast Panel"@en ;
                                   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0pt2K5QIXB89suCXlsQZw$> ,
-                                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcBuildingElementPartEnumType> .
+                                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcBuildingElementPartEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Chimney
@@ -214,7 +214,7 @@
                     "pipe"@nb-no ,
                     "skorstein"@nb-no ;
          rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0xE4A0qSaHuO00025QrE$V> ,
-                      <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcChimney> .
+                      <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcChimney> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Column
@@ -228,7 +228,7 @@
                    "Søjle"@da ,
                    "poteau"@fr-fr ;
         rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1CDOE0qSeHuO00025QrE$V> ,
-                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcColumn> .
+                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcColumn> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Column-COLUMN
@@ -242,7 +242,7 @@
                           "Stütze"@de-de ,
                           "poteau"@fr-fr ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1k5QL8XejA8v7H3XePklst> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcColumnEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcColumnEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Column-PILASTER
@@ -255,7 +255,7 @@
                             "Pilaster"@nl-nl ;
                  rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/08F4W56in3zeQ$ucplQrmF> ,
                               <http://bsdd.buildingsmart.org/#concept/details/312dw0BS8Htm00025QrE$V> ,
-                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcColumnEnumType> .
+                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcColumnEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Covering
@@ -268,7 +268,7 @@
                      "kledning / belegg"@nb-no ,
                      "revêtement"@fr-fr ;
           rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3uBPs0qSyHuO00025QrE$V> ,
-                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcCovering> .
+                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcCovering> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Covering-CEILING
@@ -278,7 +278,7 @@
                   rdfs:label "Ceiling"@en ,
                              "tak"@nb-no ;
                   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/05pSAVKa99GQlGChUhmlv1> ,
-                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcCoveringEnumType> .
+                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcCoveringEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Covering-CLADDING
@@ -288,7 +288,7 @@
                    rdfs:label "Cladding"@en ,
                               "kledning"@nb-no ;
                    rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0MKWgDXdn9OfqhAzFzvTUH> ,
-                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcCoveringEnumType> .
+                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcCoveringEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Covering-FLOORING
@@ -298,7 +298,7 @@
                    rdfs:label "Flooring"@en ,
                               "gulv"@nb-no ;
                    rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1MZNPRnDz1jOV_XCmntitl> ,
-                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcCoveringEnumType> .
+                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcCoveringEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Covering-INSULATION
@@ -308,7 +308,7 @@
                      rdfs:label "Insulation"@en ,
                                 "isolasjon"@nb-no ;
                      rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0m_WyU8An7RAFjJPRPQn1j> ,
-                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcCoveringEnumType> .
+                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcCoveringEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Covering-MEMBRANE
@@ -323,7 +323,7 @@ roof"""@en ;
                               "film d'étanchéité"@fr-fr ,
                               "membran"@nb-no ;
                    rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3vHSkCoT0Hsm00051Mm008> ,
-                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcCoveringEnumType> .
+                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcCoveringEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Covering-MOLDING
@@ -336,7 +336,7 @@ roof"""@en ;
                              "gerikt"@nb-no ,
                              "taklist"@nb-no ;
                   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/39P8INeF1DvPcZnWFCA0jO> ,
-                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcCoveringEnumType> .
+                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcCoveringEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Covering-ROOFING
@@ -347,7 +347,7 @@ roof"""@en ;
                              "takdekke"@nb-no ,
                              "taktekking"@nb-no ;
                   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1roIuYcU5AxfQM_Wf18q7t> ,
-                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcCoveringEnumType> .
+                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcCoveringEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Covering-SKIRTINGBOARD
@@ -360,7 +360,7 @@ roof"""@en ;
                                    "skirtingboard"@en ,
                                    "幅木材"@ja-jp ;
                         rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0rhD2N_cvFRRnqQ6pRM9aE> ,
-                                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcCoveringEnumType> .
+                                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcCoveringEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Covering-SLEEVING
@@ -370,7 +370,7 @@ roof"""@en ;
                    rdfs:label "Sleeving"@en ,
                               "strømpe"@nb-no ;
                    rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2mox_rbmb43xWuIkQmJqW1> ,
-                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcCoveringEnumType> .
+                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcCoveringEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Covering-WRAPPING
@@ -380,7 +380,7 @@ roof"""@en ;
                    rdfs:label "Wrapping"@en ,
                               "innkledning"@nb-no ;
                    rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/16XES3__TAdwQ57Ox4T_V8> ,
-                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcCoveringEnumType> .
+                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcCoveringEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#CurtainWall
@@ -411,7 +411,7 @@ roof"""@en ;
                         "zestaw ściany osłonowej"@pl-pl ,
                         "монтажни модули за окачени фасади"@bg-bg ;
              rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1nBFK0qT0HuO00025QrE$V> ,
-                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcCurtainWall> .
+                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcCurtainWall> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#DiscreteAccessory
@@ -423,7 +423,7 @@ roof"""@en ;
                               "Discrete Accessory"@en ,
                               "Zusatzgerät / Einbauteil"@de-de ;
                    rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0W7W20qT8HuO00025QrE$V> ,
-                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcDiscreteAccessory> .
+                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcDiscreteAccessory> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#DiscreteAccessory-ANCHORPLATE
@@ -432,7 +432,7 @@ roof"""@en ;
                                rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                                rdfs:label "Anchor Plate"@en ;
                                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1XD5ysVrvF$haI5OgtznWi> ,
-                                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcDiscreteAccessoryEnumType> .
+                                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcDiscreteAccessoryEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#DiscreteAccessory-BRACKET
@@ -455,7 +455,7 @@ roof"""@en ;
                                       "innstøpningsbrakett"@nb-no ;
                            rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3EGCgYGC9F3PmaQ821Ax2u> ,
                                         <http://bsdd.buildingsmart.org/#concept/details/3vHPwWoT0Hsm00051Mm008> ,
-                                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcDiscreteAccessoryEnumType> .
+                                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcDiscreteAccessoryEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#DiscreteAccessory-SHOE
@@ -465,7 +465,7 @@ roof"""@en ;
                         rdfs:label "Shoe"@en ,
                                    "søylesko"@nb-no ;
                         rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1i44itooP5F9e53Jc$HR0o> ,
-                                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcDiscreteAccessoryEnumType> .
+                                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcDiscreteAccessoryEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Door
@@ -485,7 +485,7 @@ roof"""@en ;
                  "dør med karm"@nb-no ,
                  "porte"@fr-fr ;
       rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3vHRQ8oT0Hsm00051Mm008> ,
-                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcDoor> .
+                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcDoor> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Door-DOOR
@@ -507,7 +507,7 @@ roof"""@en ;
                       "dør med karm"@nb-no ,
                       "porte"@fr-fr ;
            rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2reX7MzyDDPP8OCoYtmU7d> ,
-                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcDoorEnumType> .
+                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcDoorEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Door-GATE
@@ -525,7 +525,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                       "fermeture"@fr-fr ,
                       "port"@nb-no ;
            rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3C6qVkdNfEGOKvZBfksYwB> ,
-                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcDoorEnumType> .
+                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcDoorEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Door-TRAPDOOR
@@ -536,7 +536,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                           "Trap Door"@en ,
                           "takluke"@nb-no ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3_T7f4cxzB_ur2vAtd6pJe> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcDoorEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcDoorEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#ElementComponent
@@ -547,7 +547,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                              "Element Component"@en ,
                              "Elementenbestandteil"@de-de ;
                   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2pKpW0qSeHuO00025QrE$V> ,
-                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcElementComponent> .
+                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcElementComponent> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Fastener
@@ -561,7 +561,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                      "Fastener"@en ,
                      "festeinnretning"@nb-no ;
           rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2$v8e0qUGHuO00025QrE$V> ,
-                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcFastener> .
+                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFastener> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Fastener-GLUE
@@ -574,7 +574,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                           "lim"@nb-no ,
                           "lim"@sv-se ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/097NQ9z4T7eOn7nJCQC0yI> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcFastenerEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFastenerEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Fastener-MORTAR
@@ -584,7 +584,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                  rdfs:label "Mortar"@en ,
                             "mørtel"@nb-no ;
                  rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0dS2xSsC1BbvRjM1MIjNn5> ,
-                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcFastenerEnumType> .
+                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFastenerEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Fastener-WELD
@@ -596,7 +596,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                rdfs:label "Weld"@en ,
                           "sveis"@nb-no ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/01DZw_Z2b4CwKEwBQ9ERPZ> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcFastenerEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFastenerEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Footing
@@ -610,7 +610,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                     "Funderingsvoet"@nl-nl ,
                     "fondation"@fr-fr ;
          rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2vyAW0qUWHuO00025QrE$V> ,
-                      <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcFooting> .
+                      <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFooting> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Footing-CAISSON_FOUNDATION
@@ -620,7 +620,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                             rdfs:label "Caisson Foundation"@en ,
                                        "senkekasse til fundament"@nb-no ;
                             rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0MGkpmTGDFC80qy7qA0W2w> ,
-                                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcFootingEnumType> .
+                                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFootingEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Footing-FOOTING_BEAM
@@ -629,7 +629,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                       rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                       rdfs:label "Footing Beam"@en ;
                       rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3hRbiifMvFOgC3tEfSPD8X> ,
-                                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcFootingEnumType> .
+                                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFootingEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Footing-PAD_FOOTING
@@ -638,7 +638,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                      rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                      rdfs:label "Pad Footing"@en ;
                      rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1XJ0TK6AbBfxMCQLLkdnDr> ,
-                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcFootingEnumType> .
+                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFootingEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Footing-PILE_CAP
@@ -647,7 +647,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                   rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                   rdfs:label "Pile Cap"@en ;
                   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3$LxhKMZjFuBdi75OQXj0L> ,
-                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcFootingEnumType> .
+                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFootingEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Footing-STRIP_FOOTING
@@ -657,7 +657,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                        rdfs:label "Strip Footing"@en ,
                                   "platefundament"@nb-no ;
                        rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0mDEbMPpzB9B_vQTUHZLHe> ,
-                                    <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcFootingEnumType> .
+                                    <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcFootingEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#MechanicalFastener
@@ -670,7 +670,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                                "Mechanisches Befestigungsmittel"@de-de ,
                                "mekanisk festemiddel"@nb-no ;
                     rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2$KV20qV0HuO00025QrE$V> ,
-                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMechanicalFastener> .
+                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMechanicalFastener> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#MechanicalFastener-ANCHORBOLT
@@ -680,7 +680,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                                rdfs:label "Anchor Bolt"@en ,
                                           "mekanisk ankerbolt"@nb-no ;
                                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3NJqge3HD7du28Nje_S1Yv> ,
-                                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMechanicalFastenerEnumType> .
+                                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMechanicalFastenerEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#MechanicalFastener-BOLT
@@ -691,7 +691,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                          rdfs:label "Bolt"@en ,
                                     "mekanisk festemiddel - bolt"@nb-no ;
                          rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2yfVRHZ2X7heCLVLk0oVBK> ,
-                                      <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMechanicalFastenerEnumType> .
+                                      <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMechanicalFastenerEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#MechanicalFastener-DOWEL
@@ -709,7 +709,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                                      "rock dowel"@en ;
                           rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2jZSkKNyPBMwSeeMxlYWrc> ,
                                        <http://bsdd.buildingsmart.org/#concept/details/3vHOxEoT0Hsm00051Mm008> ,
-                                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMechanicalFastenerEnumType> .
+                                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMechanicalFastenerEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#MechanicalFastener-NAIL
@@ -719,7 +719,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                          rdfs:label "Nail"@en ,
                                     "spiker"@nb-no ;
                          rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1WICu7sp12cQ$$2QCHf$DB> ,
-                                      <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMechanicalFastenerEnumType> .
+                                      <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMechanicalFastenerEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#MechanicalFastener-NAILPLATE
@@ -729,7 +729,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                               rdfs:label "Nail Plate"@en ,
                                          "spikerplate"@nb-no ;
                               rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/26FDcCBjH3BOLZTZb29fxk> ,
-                                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMechanicalFastenerEnumType> .
+                                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMechanicalFastenerEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#MechanicalFastener-RIVET
@@ -739,7 +739,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                           rdfs:label "Rivet"@en ,
                                      "nagle"@nb-no ;
                           rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1zynxAt3H1eAVfmukRcO4R> ,
-                                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMechanicalFastenerEnumType> .
+                                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMechanicalFastenerEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#MechanicalFastener-SCREW
@@ -749,7 +749,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                           rdfs:label "Screw"@en ,
                                      "skrue"@nb-no ;
                           rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2NLmoal3LAGxceh8SPCvI7> ,
-                                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMechanicalFastenerEnumType> .
+                                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMechanicalFastenerEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#MechanicalFastener-SHEARCONNECTOR
@@ -758,7 +758,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                                    rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                                    rdfs:label "Shear Connector"@en ;
                                    rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0sHCCoroj0pesEpqdsmtRT> ,
-                                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMechanicalFastenerEnumType> .
+                                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMechanicalFastenerEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#MechanicalFastener-STAPLE
@@ -768,7 +768,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                            rdfs:label "Staple"@en ,
                                       "stift"@nb-no ;
                            rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3ugeBu3lP8WANu_d7DFAtv> ,
-                                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMechanicalFastenerEnumType> .
+                                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMechanicalFastenerEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#MechanicalFastener-STUDSHEARCONNECTOR
@@ -777,7 +777,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                                        rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                                        rdfs:label "Stud Shear Connector"@en ;
                                        rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2VmXuOwNvFIxXMT91lYI9q> ,
-                                                    <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMechanicalFastenerEnumType> .
+                                                    <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMechanicalFastenerEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Member
@@ -790,7 +790,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                    "Stab / Stabträger"@de-de ,
                    "konstruksjonsdel"@nb-no ;
         rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/11GXc0qV4HuO00025QrE$V> ,
-                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMember> .
+                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMember> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Member-BRACE
@@ -800,7 +800,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
               rdfs:label "Brace"@en ,
                          "avstiver"@nb-no ;
               rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0ccYVvWMX5jwoOSredVplR> ,
-                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMemberEnumType> .
+                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMemberEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Member-CHORD
@@ -810,7 +810,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
               rdfs:label "Chord"@en ,
                          "gurt"@nb-no ;
               rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1_qCPXQ3j1VBh_PCDSM2PC> ,
-                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMemberEnumType> .
+                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMemberEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Member-COLLAR
@@ -820,7 +820,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                rdfs:label "Collar"@en ,
                           "krage"@nb-no ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1r9F5o8Pv9mPKppdGc$YOw> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMemberEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMemberEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Member-MEMBER
@@ -833,7 +833,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                           "Stab / Stabträger"@de-de ,
                           "konstruksjonsdel"@nb-no ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/11GXc0qV4HuO00025QrE$V> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMemberEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMemberEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Member-MULLION
@@ -843,7 +843,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                 rdfs:label "Mullion"@en ,
                            "midtstolpe"@nb-no ;
                 rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2H6TZXz1vEFOlOdhLv3CD7> ,
-                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMemberEnumType> .
+                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMemberEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Member-PLATE
@@ -857,7 +857,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                          "plate"@nb-no ,
                          "platevarmeveksler"@nb-no ;
               rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3zdC5dewn4ROXxRERahlnc> ,
-                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMemberEnumType> .
+                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMemberEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Member-POST
@@ -869,7 +869,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
              rdfs:label "Post"@en ,
                         "stolpe"@nb-no ;
              rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3pLJTABEHCJeV4uMg1OJxY> ,
-                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMemberEnumType> .
+                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMemberEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Member-PURLIN
@@ -879,7 +879,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                rdfs:label "Purlin"@en ,
                           "takås"@nb-no ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2ClC__ZBT6lgGn9bEtyKAq> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMemberEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMemberEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Member-RAFTER
@@ -889,7 +889,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                rdfs:label "Rafter"@en ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/14MOjpDn1DYfI9uAgvn_Mm> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMemberEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMemberEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Member-STRINGER
@@ -899,7 +899,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                  rdfs:label "Stringer"@en ,
                             "vange"@nb-no ;
                  rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/31phWfaoDEDwTkU1_cQp7G> ,
-                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMemberEnumType> .
+                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMemberEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Member-STRUT
@@ -909,7 +909,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
               rdfs:label "Strut"@en ,
                          "trykkstav"@nb-no ;
               rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0F1OouH1f9rPC$dWa4xYLb> ,
-                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMemberEnumType> .
+                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMemberEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Member-STUD
@@ -919,7 +919,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
              rdfs:label "Stud"@en ,
                         "stender"@nb-no ;
              rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/14DS4URKP2au1B2s5ghLFp> ,
-                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcMemberEnumType> .
+                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcMemberEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Pile
@@ -937,7 +937,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                  "pieu"@fr-fr ,
                  "pæl"@nb-no ;
       rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3vHXEAoT0Hsm00051Mm008> ,
-                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcPile> .
+                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcPile> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Pile-BORED
@@ -947,7 +947,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
             rdfs:label "Bored Pile"@en ,
                        "boret pel"@nb-no ;
             rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1INEbwMtrBy9rKhAuvXYmq> ,
-                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcPileEnumType> .
+                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcPileEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Pile-COHESION
@@ -957,7 +957,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                rdfs:label "Cohesion Pile"@en ,
                           "kohesjon pel"@nb-no ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3xzAjG3Uv5qeCDRxYCXd4d> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcPileEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcPileEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Pile-DRIVEN
@@ -967,7 +967,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
              rdfs:label "Driven Pile"@en ,
                         "rammet pel"@nb-no ;
              rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2Qg5YD6TD299EHtweCaOOy> ,
-                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcPileEnumType> .
+                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcPileEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Pile-FRICTION
@@ -977,7 +977,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                rdfs:label "Friction Pile"@en ,
                           "friksjonspele"@nb-no ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3LgOubO_D3EhcElUZP9dMe> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcPileEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcPileEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Pile-JETGROUTING
@@ -986,7 +986,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                   rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                   rdfs:label "Jet Grouting Pile"@en ;
                   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1tI0jqBjHEmADWyrGGYig6> ,
-                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcPileEnumType> .
+                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcPileEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Pile-SUPPORT
@@ -996,7 +996,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
               rdfs:label "Support"@en ,
                          "støtte"@nb-no ;
               rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3qZud6iazFjOZ3wK3WoQch> ,
-                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcPileEnumType> .
+                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcPileEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Plate
@@ -1009,7 +1009,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                   "plaque"@fr-fr ,
                   "plate"@nb-no ;
        rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3z14Y0qVCHuO00025QrE$V> ,
-                    <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcPlate> .
+                    <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcPlate> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Plate-CURTAIN_PANEL
@@ -1021,7 +1021,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                      rdfs:label "Curtain Panel"@en ,
                                 "skjermpanel"@nb-no ;
                      rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2N7mbvPFL0QRlf$nLuQE0U> ,
-                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcPlateEnumType> .
+                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcPlateEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Plate-SHEET
@@ -1030,7 +1030,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
              rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
              rdfs:label "Sheet"@en ;
              rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2C4D8j05v51eRokWOWtlju> ,
-                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcPlateEnumType> .
+                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcPlateEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Railing
@@ -1048,7 +1048,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                     "garde-corps"@fr-fr ,
                     "rekkverk"@nb-no ;
          rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/02irk0qVyHuO00025QrE$V> ,
-                      <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRailing> .
+                      <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRailing> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Railing-BALUSTRADE
@@ -1063,7 +1063,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                                "rekkverk"@nb-no ;
                     rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0ZHKicPyL9l8uyCir_Dsef> ,
                                  <http://bsdd.buildingsmart.org/#concept/details/30Ez0HE6XAHQh6wJkRK6T$> ,
-                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRailingEnumType> .
+                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRailingEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Railing-GUARDRAIL
@@ -1077,7 +1077,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                               "garde-corps"@fr-fr ,
                               "rekkverk"@nb-no ;
                    rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2804vLstn5DfaH_vxv53w3> ,
-                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRailingEnumType> .
+                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRailingEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Railing-HANDRAIL
@@ -1090,7 +1090,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                              "håndlist"@nb-no ,
                              "main courante"@fr-fr ;
                   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3vHRZWoT0Hsm00051Mm008> ,
-                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRailingEnumType> .
+                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRailingEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Ramp
@@ -1109,7 +1109,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                  "rampe"@nb-no ,
                  "skråplan"@nb-no ;
       rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0kpjo0qVyHuO00025QrE$V> ,
-                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRamp> .
+                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRamp> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Ramp-HALF_TURN_RAMP
@@ -1119,7 +1119,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                      rdfs:label "Half Turn Ramp"@en ,
                                 "halv omdreining rampe"@nb-no ;
                      rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1hJB5FgjL4_v2TrvOBjmzz> ,
-                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRampEnumType> .
+                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRampEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Ramp-QUARTER_TURN_RAMP
@@ -1129,7 +1129,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                         rdfs:label "Quarter Turn Ramp"@en ,
                                    "rampe med en sving"@nb-no ;
                         rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1FZ7G8CAP2UxmW6fnuOOfQ> ,
-                                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRampEnumType> .
+                                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRampEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Ramp-SPIRAL_RAMP
@@ -1138,7 +1138,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                   rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                   rdfs:label "Spiral Ramp"@en ;
                   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2__YGgu4XCN9NmT3LhvE6V> ,
-                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRampEnumType> .
+                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRampEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Ramp-STRAIGHT_RUN_RAMP
@@ -1147,7 +1147,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                         rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                         rdfs:label "Straight Run Ramp"@en ;
                         rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1SYNqJ72H64g7EG2vm8VJu> ,
-                                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRampEnumType> .
+                                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRampEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Ramp-TWO_QUARTER_TURN_RAMP
@@ -1157,7 +1157,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                             rdfs:label "Two Quarter Turn Ramp"@en ,
                                        "rampe med to svinger"@nb-no ;
                             rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2wUjACPhnDyAgFiGarLaek> ,
-                                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRampEnumType> .
+                                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRampEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Ramp-TWO_STRAIGHT_RUN_RAMP
@@ -1166,7 +1166,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                             rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                             rdfs:label "Two Straight Run Ramp"@en ;
                             rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2skPwOQSH1Ex7UR3SpDGbT> ,
-                                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRampEnumType> .
+                                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRampEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#RampFlight
@@ -1179,7 +1179,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                        "Volée"@fr-fr ,
                        "rampe"@nb-no ;
             rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1kbSG0qVyHuO00025QrE$V> ,
-                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRampFlight> .
+                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRampFlight> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#RampFlight-SPIRAL
@@ -1190,7 +1190,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                               "spiral"@nb-no ,
                               "vindel"@nb-no ;
                    rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0CDsSbmyb4GA$0xajhCLYB> ,
-                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRampFlightEnumType> .
+                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRampFlightEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#RampFlight-STRAIGHT
@@ -1200,7 +1200,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                      rdfs:label "Straight"@en ,
                                 "rett"@nb-no ;
                      rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0fyv31IoL8mwvU9TcZR2FC> ,
-                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRampFlightEnumType> .
+                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRampFlightEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#ReinforcingBar
@@ -1213,7 +1213,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                            "armeringsstang"@nb-no ,
                            "barre d'armature"@fr-fr ;
                 rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1zlbN6A$z4r8Er6nWNbSMZ> ,
-                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcReinforcingBar> .
+                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcReinforcingBar> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#ReinforcingBar-ANCHORING
@@ -1222,7 +1222,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                           rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                           rdfs:label "Anchoring"@en ;
                           rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3X1mNZzk542ez6g92TTVdH> ,
-                                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcReinforcingBarEnumType> .
+                                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcReinforcingBarEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#ReinforcingBar-EDGE
@@ -1231,7 +1231,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                      rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                      rdfs:label "Edge"@en ;
                      rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0tRGNh1sv19OvGghikeGYQ> ,
-                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcReinforcingBarEnumType> .
+                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcReinforcingBarEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#ReinforcingBar-LIGATURE
@@ -1240,7 +1240,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                          rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                          rdfs:label "Ligature"@en ;
                          rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/09DzOB3qT10AwjdzYLo1LA> ,
-                                      <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcReinforcingBarEnumType> .
+                                      <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcReinforcingBarEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#ReinforcingBar-MAIN
@@ -1249,7 +1249,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                      rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                      rdfs:label "Main"@en ;
                      rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0ZDnwDkMT9fhTxjjLnIpAX> ,
-                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcReinforcingBarEnumType> .
+                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcReinforcingBarEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#ReinforcingBar-PUNCHING
@@ -1258,7 +1258,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                          rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                          rdfs:label "Punching"@en ;
                          rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1RO$_IvNP7eQABna$VzMm_> ,
-                                      <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcReinforcingBarEnumType> .
+                                      <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcReinforcingBarEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#ReinforcingBar-RING
@@ -1267,7 +1267,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                      rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                      rdfs:label "Ring"@en ;
                      rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2zA8DFnW5B8hiBjIlXcktx> ,
-                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcReinforcingBarEnumType> .
+                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcReinforcingBarEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#ReinforcingBar-SHEAR
@@ -1277,7 +1277,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                       rdfs:label "Shear"@en ,
                                  "skive"@nb-no ;
                       rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/220Wv8D4n11hjTIo_DzfBR> ,
-                                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcReinforcingBarEnumType> .
+                                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcReinforcingBarEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#ReinforcingBar-STUD
@@ -1287,7 +1287,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                      rdfs:label "Stud"@en ,
                                 "stender"@nb-no ;
                      rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3cWXnrQEvAfRCh9LjK26$R> ,
-                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcReinforcingBarEnumType> .
+                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcReinforcingBarEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#ReinforcingElement
@@ -1299,7 +1299,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                                "Reinforcing Element"@en ,
                                "elément d'armature"@fr-fr ;
                     rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1aiY$$Wf98m8a5cp3Hzgdu> ,
-                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcReinforcingElement> .
+                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcReinforcingElement> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#ReinforcingMesh
@@ -1311,7 +1311,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                             "Reinforcing Mesh"@en ,
                             "treillis"@fr-fr ;
                  rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3R4n2h6wn67Q4clocrGT7J> ,
-                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcReinforcingMesh> .
+                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcReinforcingMesh> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Roof
@@ -1325,7 +1325,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                  "Tag"@da ,
                  "toiture"@fr-fr ;
       rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2Iyg00qW4HuO00025QrE$V> ,
-                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRoof> .
+                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRoof> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Roof-BARREL_ROOF
@@ -1334,7 +1334,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                   rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                   rdfs:label "Barrel Roof"@en ;
                   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/172RLdein1b8WIbTtDLVbc> ,
-                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRoofEnumType> .
+                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRoofEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Roof-BUTTERFLY_ROOF
@@ -1343,7 +1343,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                      rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                      rdfs:label "Butterfly Roof"@en ;
                      rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2W6yLK2r968h2TWfGC2xWu> ,
-                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRoofEnumType> .
+                                  <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRoofEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Roof-DOME_ROOF
@@ -1353,7 +1353,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                 rdfs:label "Dome Roof"@en ,
                            "kuppeltak"@nb-no ;
                 rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3UcE2aJPP4ewOoRn29unfZ> ,
-                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRoofEnumType> .
+                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRoofEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Roof-FLAT_ROOF
@@ -1363,7 +1363,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                 rdfs:label "Flat Roof"@en ,
                            "flatt tak"@nb-no ;
                 rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3IeKrtrMz2SQN7qpJt82e5> ,
-                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRoofEnumType> .
+                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRoofEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Roof-FREEFORM
@@ -1373,7 +1373,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                rdfs:label "Free Form Roof"@en ,
                           "friform tak"@nb-no ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2KVHvK7iXAEfKlD5hGIFEc> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRoofEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRoofEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Roof-GABLE_ROOF
@@ -1383,7 +1383,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                  rdfs:label "Gable Roof"@en ,
                             "gavl"@nb-no ;
                  rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0gHJNRNhz6LOTHVbnW$nEj> ,
-                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRoofEnumType> .
+                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRoofEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Roof-GAMBREL_ROOF
@@ -1393,7 +1393,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                    rdfs:label "Gambrel Roof"@en ,
                               "gambrel tak"@nb-no ;
                    rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2BnDhKP1HF3vXxnwqccewa> ,
-                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRoofEnumType> .
+                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRoofEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Roof-HIPPED_GABLE_ROOF
@@ -1403,7 +1403,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                         rdfs:label "Hipped Gable Roof"@en ,
                                    "valm/saltak"@nb-no ;
                         rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3Su_2ncLX1Oes0r3fNr4uE> ,
-                                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRoofEnumType> .
+                                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRoofEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Roof-HIP_ROOF
@@ -1413,7 +1413,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                rdfs:label "Hip Roof"@en ,
                           "valmtak"@nb-no ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0waejMcyT3zwP6nRClvfSx> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRoofEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRoofEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Roof-MANSARD_ROOF
@@ -1423,7 +1423,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                    rdfs:label "Mansard Roof"@en ,
                               "mansardtak"@nb-no ;
                    rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1hB_MPg3j35vRsm_vutjD2> ,
-                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRoofEnumType> .
+                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRoofEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Roof-PAVILION_ROOF
@@ -1433,7 +1433,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                     rdfs:label "Pavilion Roof"@en ,
                                "paviljongtak"@nb-no ;
                     rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/11Ltv09Eb7lRJW184fZ9gF> ,
-                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRoofEnumType> .
+                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRoofEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Roof-RAINBOW_ROOF
@@ -1443,7 +1443,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                    rdfs:label "Rainbow Roof"@en ,
                               "buetak"@nb-no ;
                    rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1MnaPoqUb0L8PGqS6yHzbq> ,
-                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRoofEnumType> .
+                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRoofEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Roof-SHED_ROOF
@@ -1453,7 +1453,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                 rdfs:label "Shed Roof"@en ,
                            "pulttak"@nb-no ;
                 rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3GsCyHvinDMPWmecHluOEq> ,
-                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcRoofEnumType> .
+                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcRoofEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#ShadingDevice
@@ -1469,7 +1469,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                           "protection solaire"@fr-fr ,
                           "skjermingstype"@nb-no ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/11vQg0qWSHuO00025QrE$V> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcShadingDevice> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcShadingDevice> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#ShadingDevice-AWNING
@@ -1504,7 +1504,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                                    "venetian blind"@en ;
                         rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1$w9Dw6W9DJvD2GfuZFMSR> ,
                                      <http://bsdd.buildingsmart.org/#concept/details/3vHLsWoT0Hsm00051Mm008> ,
-                                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcShadingDeviceEnumType> .
+                                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcShadingDeviceEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#ShadingDevice-SHUTTER
@@ -1525,7 +1525,7 @@ Det tyske ordet 'Tor' refererer til alle produkter for å stenge åpninger, som 
                        rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0w_lVI8P10c9rjT$RsNEVr> ,
                                     <http://bsdd.buildingsmart.org/#concept/details/27f2fkTV50YwB1IZgMURLa> ,
                                     <http://bsdd.buildingsmart.org/#concept/details/3vHUzKoT0Hsm00051Mm008> ,
-                                    <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcShadingDeviceEnumType> .
+                                    <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcShadingDeviceEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Slab
@@ -1541,7 +1541,7 @@ Only the core or constructional part of this construction is considered to be a 
                  "dalle"@fr-fr ,
                  "dekke"@nb-no ;
       rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3pXDk0qWSHuO00025QrE$V> ,
-                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcSlab> .
+                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcSlab> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Slab-BASESLAB
@@ -1551,7 +1551,7 @@ Only the core or constructional part of this construction is considered to be a 
                rdfs:label "Base Slab"@en ,
                           "støpt fundament"@nb-no ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1hBroEIeL9neS3mSSGZiyC> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcSlabEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcSlabEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Slab-FLOOR
@@ -1562,7 +1562,7 @@ Only the core or constructional part of this construction is considered to be a 
                        "dekke"@nb-no ,
                        "gulv"@nb-no ;
             rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0jBALpJIv7vvlWkbd9HdCx> ,
-                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcSlabEnumType> .
+                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcSlabEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Slab-LANDING
@@ -1572,7 +1572,7 @@ Only the core or constructional part of this construction is considered to be a 
               rdfs:label "Landing"@en ,
                          "repo"@nb-no ;
               rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3tQbZvvrfA8OUjU1kc2rUZ> ,
-                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcSlabEnumType> .
+                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcSlabEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Slab-ROOF
@@ -1585,7 +1585,7 @@ Only the core or constructional part of this construction is considered to be a 
                       "flatt tak"@nb-no ,
                       "toiture"@fr-fr ;
            rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3Hvwx39_rCaRS49F4qRGBb> ,
-                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcSlabEnumType> .
+                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcSlabEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Stair
@@ -1602,7 +1602,7 @@ Only the core or constructional part of this construction is considered to be a 
                   "escalier"@fr-fr ,
                   "trapp"@nb-no ;
        rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3DhWM0qWmHuO00025QrE$V> ,
-                    <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStair> .
+                    <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStair> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Stair-CURVED_RUN_STAIR
@@ -1612,7 +1612,7 @@ Only the core or constructional part of this construction is considered to be a 
                         rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                         rdfs:label "Curved Run Stair"@en ;
                         rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1lkxIX8Gj23Bi50H2qpZB9> ,
-                                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairEnumType> .
+                                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Stair-DOUBLE_RETURN_STAIR
@@ -1622,7 +1622,7 @@ Only the core or constructional part of this construction is considered to be a 
                            rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                            rdfs:label "Double Return Stair"@en ;
                            rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3NNCQTceL7Uf8ZhJf40gs9> ,
-                                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairEnumType> .
+                                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Stair-HALF_TURN_STAIR
@@ -1632,7 +1632,7 @@ Only the core or constructional part of this construction is considered to be a 
                        rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                        rdfs:label "Half Turn Stair"@en ;
                        rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3YmaH1onP90PM6kEWHUjFv> ,
-                                    <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairEnumType> .
+                                    <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Stair-HALF_WINDING_STAIR
@@ -1641,7 +1641,7 @@ Only the core or constructional part of this construction is considered to be a 
                           rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                           rdfs:label "Half Winding Stair"@en ;
                           rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0Vw081Hfz1AQne1V5CsfUA> ,
-                                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairEnumType> .
+                                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Stair-QUARTER_TURN_STAIR
@@ -1651,7 +1651,7 @@ Only the core or constructional part of this construction is considered to be a 
                           rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                           rdfs:label "Quarter Turn Stair"@en ;
                           rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1IEbbDJDHAFQb9SZweXH3x> ,
-                                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairEnumType> .
+                                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Stair-QUARTER_WINDING_STAIR
@@ -1660,7 +1660,7 @@ Only the core or constructional part of this construction is considered to be a 
                              rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                              rdfs:label "Quarter Winding Stair"@en ;
                              rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3PzSNWl5T1EgMXH$Tn6uuQ> ,
-                                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairEnumType> .
+                                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Stair-SPIRAL_STAIR
@@ -1669,7 +1669,7 @@ Only the core or constructional part of this construction is considered to be a 
                     rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                     rdfs:label "Spiral Stair"@en ;
                     rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0UwQe$TXP47AhE5k0mZzCe> ,
-                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairEnumType> .
+                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Stair-STRAIGHT_RUN_STAIR
@@ -1678,7 +1678,7 @@ Only the core or constructional part of this construction is considered to be a 
                           rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                           rdfs:label "Straight Run Stair"@en ;
                           rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3p4WSJmK96Oe6HXE$jmWWy> ,
-                                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairEnumType> .
+                                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Stair-THREE_QUARTER_TURN_STAIR
@@ -1687,7 +1687,7 @@ Only the core or constructional part of this construction is considered to be a 
                                 rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                                 rdfs:label "Three Quarter Turn Stair"@en ;
                                 rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2jTG3NRNHCyhbsMbwK38v5> ,
-                                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairEnumType> .
+                                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Stair-THREE_QUARTER_WINDING_STAIR
@@ -1696,7 +1696,7 @@ Only the core or constructional part of this construction is considered to be a 
                                    rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                                    rdfs:label "Three Quarter Winding Stair"@en ;
                                    rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0rPjGYk_LFnOayZFsJg3tr> ,
-                                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairEnumType> .
+                                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Stair-TWO_CURVED_RUN_STAIR
@@ -1705,7 +1705,7 @@ Only the core or constructional part of this construction is considered to be a 
                             rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                             rdfs:label "Two Curved Run Stair"@en ;
                             rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0cSo1dkGL8NunRzp$sQsTc> ,
-                                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairEnumType> .
+                                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Stair-TWO_QUARTER_TURN_STAIR
@@ -1715,7 +1715,7 @@ Only the core or constructional part of this construction is considered to be a 
                               rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                               rdfs:label "Two Quarter Turn Stair"@en ;
                               rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0mW4DtraD3SA57fcejW4cS> ,
-                                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairEnumType> .
+                                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Stair-TWO_QUARTER_WINDING_STAIR
@@ -1724,7 +1724,7 @@ Only the core or constructional part of this construction is considered to be a 
                                  rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                                  rdfs:label "Two Quarter Winding Stair"@en ;
                                  rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3SSlfuJ_nA49lzIOhda6Xr> ,
-                                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairEnumType> .
+                                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Stair-TWO_STRAIGHT_RUN_STAIR
@@ -1734,7 +1734,7 @@ Only the core or constructional part of this construction is considered to be a 
                               rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                               rdfs:label "Two Straight Run Stair"@en ;
                               rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3VuqGJNz160B87TSrFhrM4> ,
-                                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairEnumType> .
+                                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#StairFlight
@@ -1749,7 +1749,7 @@ Only the core or constructional part of this construction is considered to be a 
                         "trapslag"@nl-nl ,
                         "treppenlauf"@de-de ;
              rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0pceq0qWqHuO00025QrE$V> ,
-                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairFlight> .
+                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairFlight> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#StairFlight-CURVED
@@ -1759,7 +1759,7 @@ Only the core or constructional part of this construction is considered to be a 
                     rdfs:label "Curved"@en ,
                                "trapp - kurvet"@nb-no ;
                     rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2DeCDqEVHDjwFaGVpyNC89> ,
-                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairFlightEnumType> .
+                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairFlightEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#StairFlight-FREEFORM
@@ -1770,7 +1770,7 @@ Only the core or constructional part of this construction is considered to be a 
                                  "friform"@nb-no ,
                                  "friform tak"@nb-no ;
                       rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0uFuIDRO1EZPmcL8pEkVU$> ,
-                                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairFlightEnumType> .
+                                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairFlightEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#StairFlight-SPIRAL
@@ -1782,7 +1782,7 @@ Only the core or constructional part of this construction is considered to be a 
                                "spiral"@nb-no ,
                                "vindel"@nb-no ;
                     rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1zj3DVJij6IBVuIqOLbi46> ,
-                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairFlightEnumType> .
+                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairFlightEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#StairFlight-STRAIGHT
@@ -1792,7 +1792,7 @@ Only the core or constructional part of this construction is considered to be a 
                       rdfs:label "Straight"@en ,
                                  "rett"@nb-no ;
                       rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/247CeErMz16BZyRhwbAOdR> ,
-                                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairFlightEnumType> .
+                                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairFlightEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#StairFlight-WINDER
@@ -1802,7 +1802,7 @@ Only the core or constructional part of this construction is considered to be a 
                     rdfs:label "Winder"@en ,
                                "svingtrapp"@nb-no ;
                     rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3XVLP1SZf8YQfshhp0Vjph> ,
-                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcStairFlightEnumType> .
+                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcStairFlightEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Tendon
@@ -1814,7 +1814,7 @@ Only the core or constructional part of this construction is considered to be a 
                    "Tendon"@en ,
                    "cable"@fr-fr ;
         rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0GEDRkhJ9DdQ2MRE_CaSCF> ,
-                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcTendon> .
+                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcTendon> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Tendon-BAR
@@ -1823,7 +1823,7 @@ Only the core or constructional part of this construction is considered to be a 
             rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
             rdfs:label "Bar"@en ;
             rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3seMZXSSH4YfQCPjOcaoZG> ,
-                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcTendonEnumType> .
+                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcTendonEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Tendon-COATED
@@ -1832,7 +1832,7 @@ Only the core or constructional part of this construction is considered to be a 
                rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                rdfs:label "Coated"@en ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1WLzEVaRD77A5KPd3$v9DB> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcTendonEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcTendonEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Tendon-STRAND
@@ -1841,7 +1841,7 @@ Only the core or constructional part of this construction is considered to be a 
                rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                rdfs:label "Strand"@en ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1d4UrJXi92ivdu3FflJ62n> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcTendonEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcTendonEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Tendon-WIRE
@@ -1850,7 +1850,7 @@ Only the core or constructional part of this construction is considered to be a 
              rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
              rdfs:label "Wire"@en ;
              rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1NCnQvMs9AaRqwexu7DofF> ,
-                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcTendonEnumType> .
+                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcTendonEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#TendonAnchor
@@ -1862,7 +1862,7 @@ Only the core or constructional part of this construction is considered to be a 
                          "Tendon Anchor"@en ,
                          "ancrage"@fr-fr ;
               rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0Z116ntsH6xBFYGYsNg38f> ,
-                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcTendonAnchor> .
+                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcTendonAnchor> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#TendonAnchor-COUPLER
@@ -1871,7 +1871,7 @@ Only the core or constructional part of this construction is considered to be a 
                       rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                       rdfs:label "Coupler"@en ;
                       rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2yrjArQAnBL9EdTqIc7Uv7> ,
-                                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcTendonAnchorEnumType> .
+                                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcTendonAnchorEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#TendonAnchor-FIXED_END
@@ -1880,7 +1880,7 @@ Only the core or constructional part of this construction is considered to be a 
                         rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                         rdfs:label "Fixed End"@en ;
                         rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/133YYoKAv8mBxccTJtzWju> ,
-                                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcTendonAnchorEnumType> .
+                                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcTendonAnchorEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#TendonAnchor-TENSIONING_END
@@ -1889,7 +1889,7 @@ Only the core or constructional part of this construction is considered to be a 
                              rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                              rdfs:label "Tensioning End"@en ;
                              rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2Bp8P7qwn1Hg1BaRHyCQP4> ,
-                                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcTendonAnchorEnumType> .
+                                          <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcTendonAnchorEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#TransportElement
@@ -1906,7 +1906,7 @@ It is used to define a transport element specification (i.e. the specific produc
                              "Transport Element"@en ,
                              "transportelement"@nb-no ;
                   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3ZSVc0qX4HuO00025QrE$V> ,
-                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcTransportElement> .
+                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcTransportElement> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#TransportElement-CRANEWAY
@@ -1920,7 +1920,7 @@ It is used to define a transport element specification (i.e. the specific produc
                                       "kran"@nb-no ,
                                       "kranbane"@nb-no ;
                            rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/087V4aTMPA09OItHDUip4G> ,
-                                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcTransportElementEnumType> .
+                                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcTransportElementEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#TransportElement-ELEVATOR
@@ -1936,7 +1936,7 @@ It is used to define a transport element specification (i.e. the specific produc
                                       "lift"@en ;
                            rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2qanav0WDASA8V5to62fCx> ,
                                         <http://bsdd.buildingsmart.org/#concept/details/3vHX1_oT0Hsm00051Mm008> ,
-                                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcTransportElementEnumType> .
+                                        <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcTransportElementEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#TransportElement-ESCALATOR
@@ -1951,7 +1951,7 @@ It is used to define a transport element specification (i.e. the specific produc
                                        "rulletrapp"@nb-no ;
                             rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3vHZncoT0Hsm00051Mm008> ,
                                          <http://bsdd.buildingsmart.org/#concept/details/377eo0WJOHu000025QrE$V> ,
-                                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcTransportElementEnumType> .
+                                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcTransportElementEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#TransportElement-LIFTINGGEAR
@@ -1963,7 +1963,7 @@ It is used to define a transport element specification (i.e. the specific produc
                               rdfs:label "Lifting Gear"@en ,
                                          "løfteinretning"@nb-no ;
                               rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3qsVNaK3r6Uw2tccQdpTmo> ,
-                                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcTransportElementEnumType> .
+                                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcTransportElementEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#TransportElement-MOVINGWALKWAY
@@ -1973,7 +1973,7 @@ It is used to define a transport element specification (i.e. the specific produc
                                 rdfs:label "Moving Walkway"@en ,
                                            "rullebånd"@nb-no ;
                                 rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0Fn7lcsC5As81fnfma0hsy> ,
-                                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcTransportElementEnumType> .
+                                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcTransportElementEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#VibrationIsolator
@@ -1988,7 +1988,7 @@ It is used to define a transport element specification (i.e. the specific produc
                               "trillingsisolator"@nl-nl ,
                               "vibrasjonsisolator"@nb-no ;
                    rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0Oy60xvFT7TO70hyDzhWWZ> ,
-                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcVibrationIsolator> .
+                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcVibrationIsolator> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#VibrationIsolator-COMPRESSION
@@ -2000,7 +2000,7 @@ It is used to define a transport element specification (i.e. the specific produc
                                rdfs:label "Compression-based vibration isolator"@en ,
                                           "kompresjon"@nb-no ;
                                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0EwSGR8PX1z9zHS_KHBRcA> ,
-                                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcVibrationIsolatorEnumType> .
+                                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcVibrationIsolatorEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#VibrationIsolator-SPRING
@@ -2012,7 +2012,7 @@ It is used to define a transport element specification (i.e. the specific produc
                           rdfs:label "Spring"@en ,
                                      "fjær"@nb-no ;
                           rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3cKim0GJf3mxz7EqVVfQ8u> ,
-                                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcVibrationIsolatorEnumType> .
+                                       <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcVibrationIsolatorEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Wall
@@ -2028,7 +2028,7 @@ It is used to define a transport element specification (i.e. the specific produc
                  "vegg"@nb-no ,
                  "wall"@en ;
       rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2Xuqs0qXKHuO00025QrE$V> ,
-                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcWall> .
+                   <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWall> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Wall-ELEMENTEDWALL
@@ -2041,7 +2041,7 @@ It is used to define a transport element specification (i.e. the specific produc
                                "elementvegg"@nb-no ,
                                "systemvegg"@nb-no ;
                     rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0sVBQjaqvEcAVsdRJorFkQ> ,
-                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcWallEnumType> .
+                                 <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWallEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Wall-MOVABLE
@@ -2051,7 +2051,7 @@ It is used to define a transport element specification (i.e. the specific produc
               rdfs:label "Flyttbar"@nb-no ,
                          "Movable Wall"@en ;
               rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2nSQnTH_18RB$MO5daYxD0> ,
-                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcWallEnumType> .
+                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWallEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Wall-PARAPET
@@ -2068,7 +2068,7 @@ Opphøyet kant som stikker opp over tak"""@nb-no ;
                          "parapet"@nb-no ;
               rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1uS$40WJmHu000025QrE$V> ,
                            <http://bsdd.buildingsmart.org/#concept/details/2BlEUUV2L2BBUdnPO3PtnQ> ,
-                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcWallEnumType> .
+                           <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWallEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Wall-PARTITIONING
@@ -2078,7 +2078,7 @@ Opphøyet kant som stikker opp over tak"""@nb-no ;
                    rdfs:label "Partitioning Wall"@en ,
                               "skillevegg"@nb-no ;
                    rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3DBpG2jff4GAXiQp8trskt> ,
-                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcWallEnumType> .
+                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWallEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Wall-PLUMBINGWALL
@@ -2088,7 +2088,7 @@ Opphøyet kant som stikker opp over tak"""@nb-no ;
                    rdfs:label "Plumbing Wall"@en ,
                               "rør i vegg"@nb-no ;
                    rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1YFt0DFB99uxbJnz4oFiew> ,
-                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcWallEnumType> .
+                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWallEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Wall-POLYGONAL
@@ -2100,7 +2100,7 @@ Opphøyet kant som stikker opp over tak"""@nb-no ;
                 rdfs:label "Polygonal Wall"@en ,
                            "mangekantet"@nb-no ;
                 rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0cJEMJHYj6Hh7Q1xNPsiIf> ,
-                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcWallEnumType> .
+                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWallEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Wall-SHEAR
@@ -2110,7 +2110,7 @@ Opphøyet kant som stikker opp over tak"""@nb-no ;
             rdfs:label "Shear Wall"@en ,
                        "skive"@nb-no ;
             rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/0MAk1miOTAJQpI0VGyMnjS> ,
-                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcWallEnumType> .
+                         <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWallEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Wall-SOLIDWALL
@@ -2120,7 +2120,7 @@ Opphøyet kant som stikker opp over tak"""@nb-no ;
                 rdfs:label "Solid Wall"@en ,
                            "massiv vegg"@nb-no ;
                 rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2J1xt_ADz7heqvTyh5YGEM> ,
-                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcWallEnumType> .
+                             <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWallEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Wall-STANDARD
@@ -2129,7 +2129,7 @@ Opphøyet kant som stikker opp over tak"""@nb-no ;
                rdfs:isDefinedBy <https://pi.pauwel.be/voc/buildingelement> ;
                rdfs:label "Standard Wall"@en ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2HWHt8Yiz4m9UzhlqVFLeO> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcWallEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWallEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#WallElementedCase
@@ -2141,7 +2141,7 @@ Opphøyet kant som stikker opp over tak"""@nb-no ;
                               "Mur composite"@fr-fr ,
                               "Wand elementiert"@de-de ;
                    rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/2dG9W0qXKHuO00025QrE$V> ,
-                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcWallElementedCase> .
+                                <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWallElementedCase> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Window
@@ -2186,7 +2186,7 @@ Opphøyet kant som stikker opp over tak"""@nb-no ;
                    "نافذة"@ar-sa ,
                    "窓"@ja-jp ;
         rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3vHUaooT0Hsm00051Mm008> ,
-                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcWindow> .
+                     <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWindow> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Window-LIGHTDOME
@@ -2197,7 +2197,7 @@ Opphøyet kant som stikker opp over tak"""@nb-no ;
                   rdfs:label "Light dome"@en ,
                              "lyskuppel"@nb-no ;
                   rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3aXmro5wX3FeEqYU7Y7w5X> ,
-                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcWindowEnumType> .
+                               <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWindowEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Window-SKYLIGHT
@@ -2210,7 +2210,7 @@ Opphøyet kant som stikker opp over tak"""@nb-no ;
                             "Skylight"@en ,
                             "overlys"@nb-no ;
                  rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/1irgDncIrAVQwjja3JEbnb> ,
-                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcWindowEnumType> .
+                              <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWindowEnumType> .
 
 
 ###  https://pi.pauwel.be/voc/buildingelement#Window-WINDOW
@@ -2259,7 +2259,7 @@ Construction for closing a vertical or near vertical opening in a wall or pitche
                           "نافذة"@ar-sa ,
                           "窓"@ja-jp ;
                rdfs:seeAlso <http://bsdd.buildingsmart.org/#concept/details/3QkFVA4cD3YvP3Y3zVGFc3> ,
-                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcWindowEnumType> .
+                            <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2_TC1/OWL#IfcWindowEnumType> .
 
 
 
