@@ -1,7 +1,0 @@
-@prefix ccc: <https://w3id.org/con-tax#> . # construction component classification
-INSERT {
-	?class rdfs:subClassOf contax:ConstructionComponent . # except for beo:ElementComponent which should be subclass of contax:ConstructionSubComponent
-}
-WHERE {
-	?class rdfs:subClassOf schema:Product .
-}
