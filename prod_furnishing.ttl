@@ -1,112 +1,171 @@
+# baseURI: http://pi.pauwel.be/voc/furniture
+# prefix: furn
+
 @prefix : <http://pi.pauwel.be/voc/furniture#> .
-@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
-@prefix furn: <http://pi.pauwel.be/voc/furniture#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix contax: <https://w3id.org/con-tax#> .
+@prefix dbr: <http://dbpedia.org/resource/> .
 @prefix dce: <http://purl.org/dc/elements/1.1/> .
-@prefix ifc: <http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix furn: <http://pi.pauwel.be/voc/furniture#> .
+@prefix gr: <http://purl.org/goodrelations/v1#> .
+@prefix ifc: <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
-@prefix dbr:    <http://dbpedia.org/resource/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@base <http://pi.pauwel.be/voc/furniture> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://pi.pauwel.be/voc/furniture> rdf:type owl:Ontology ;
-                                           dce:Language "en" ;
-                                           dce:description "The Furniture Ontology provides an ontology that allows to define common furniture."@en ;
-                                           dce:modified "January 28th 2019" ;
-                                           dce:title "Furniture Ontology" ;
-                                           dcterms:creator [ rdf:type foaf:Person ;
-                                                             foaf:name "Pieter Pauwels"
-                                                           ] ;
-                                           dcterms:description "The Furniture Ontology provides an ontology that allows to define common furniture."@en ;
-                                           dcterms:issued "2019-01-28"^^xsd:date ;
-                                           dcterms:license <https://creativecommons.org/licenses/by/1.0/> ;
-                                           dcterms:title "Furniture Ontology"@en ;
-                                           vann:preferredNamespacePrefix "furn" ;
-                                           vann:preferredNamespaceUri furn: ;
-                                           owl:versionInfo "January 28th 2019" ,
-                                                           "v0.1.0" .
-
-voaf:Vocabulary a owl:Class .
-dcterms:title a owl:AnnotationProperty .
-dcterms:description a owl:AnnotationProperty .
-dcterms:issued a owl:AnnotationProperty .
-dcterms:modified a owl:AnnotationProperty .
-dcterms:creator a owl:AnnotationProperty .
-dcterms:contributor a owl:AnnotationProperty .
-dcterms:license a owl:AnnotationProperty .
-vann:preferredNamespacePrefix a owl:AnnotationProperty .
-vann:preferredNamespaceUri a owl:AnnotationProperty .
-vs:term_status a owl:AnnotationProperty .
-foaf:Person a owl:Class .
-foaf:name a owl:DatatypeProperty .
-
-
-#################################
-# CLASSES
-#################################
-
-furn:Furniture a owl:Class ;
-    rdfs:label "Furniture"^^xsd:string ;
-    rdfs:seeAlso ifc:IfcFurnishingElement ;
-	rdfs:subClassOf <https://schema.org/Product>, <http://purl.org/goodrelations/v1#SomeItems> .
-
+<http://pi.pauwel.be/voc/furniture>
+  rdf:type voaf:Vocabulary ;
+  rdf:type owl:Ontology ;
+  cc:license <https://creativecommons.org/licenses/by/1.0/> ;
+  dcterms:contributor [
+      rdf:type vcard:Individual ;
+      vcard:family-name "Bonduel" ;
+      vcard:fn "Mathias Bonduel" ;
+      vcard:given-name "Mathias" ;
+      vcard:hasOrganizationName [
+          rdf:type vcard:Organization ;
+          owl:sameAs dbr:Katholieke_Universiteit_Leuven ;
+          vcard:hasURL <https://www.kuleuven.be> ;
+          vcard:organization-name "KU Leuven" ;
+        ] ;
+      vcard:hasURL <https://orcid.org/0000-0002-3313-924X> ;
+      vcard:hasURL <https://www.kuleuven.be/wieiswie/nl/person/00110827> ;
+      vcard:hasURL <https://www.researchgate.net/profile/Mathias_Bonduel> ;
+    ] ;
+  dcterms:creator [
+      rdf:type foaf:Person ;
+      foaf:name "Pieter Pauwels" ;
+    ] ;
+  dcterms:description "The Furniture Ontology (FURN) provides an ontology based on the IfcFurnishingElement subtree in the IFC specification, containing a taxonomy of classes that allows to define common furniture."@en ;
+  dcterms:issued "2019-01-28"^^xsd:date ;
+  dcterms:modified "2020-07-29"^^xsd:date ;
+  dcterms:title "FURN: Furniture Ontology"@en ;
+  vann:preferredNamespacePrefix "furn" ;
+  vann:preferredNamespaceUri "http://pi.pauwel.be/voc/furniture#" ;
+  rdfs:comment """
+- Version 0.3.0: changed ccc:ConstructionComponent into contax:ConstructionComponent. Added rdfs:isDefinedBy
+- Version 0.2.0: changed all subclasses of schema:Product and gr:SomeItems into a subclass of ccc:ConstructionComponent
+- Version 0.1.1: small changes and corrections (completed onto metadata; updated ifcOWL URI; added missing language tags to strings)
+- Version 0.1.0: initial version"""@en ;
+  owl:versionInfo "0.3.0" ;
+.
+furn:Bed
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
+  rdfs:label "Bed"@en ;
+  rdfs:seeAlso ifc:IfcFurnitureEnumType ;
+  rdfs:subClassOf furn:Furniture ;
+  owl:equivalentClass dbr:Bed ;
+.
 furn:Chair
-        a owl:Class ;
-        owl:equivalentClass dbr:Chair ;
-        rdfs:subClassOf furn:Furniture ;
-		rdfs:seeAlso ifc:IfcFurnitureEnumType ;
-        rdfs:label      "Chair"@en ,
-                        "Stol"@da .
-
-furn:Table
-        a owl:Class ;
-        rdfs:subClassOf furn:Furniture ;
-		    rdfs:seeAlso ifc:IfcFurnitureEnumType ;
-        owl:equivalentClass <http://dbpedia.org/resource/Table_(furniture)> ;
-        rdfs:label      "Table"@en ,
-                        "Bord"@da .
-
-furn:Desk
-        a owl:Class ;
-        rdfs:subClassOf furn:Furniture ;
-		rdfs:seeAlso ifc:IfcFurnitureEnumType ;
-        rdfs:label      "Desk"@en .
-
-furn:Sofa
-        a owl:Class ;
-        rdfs:subClassOf furn:Furniture ;
-		rdfs:seeAlso ifc:IfcFurnitureEnumType ;
-        rdfs:label      "Sofa"@en ,
-                        "Sofa"@da .
-						
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
+  rdfs:label "Chair"@en ;
+  rdfs:label "Stol"@da ;
+  rdfs:seeAlso ifc:IfcFurnitureEnumType ;
+  rdfs:subClassOf furn:Furniture ;
+  owl:equivalentClass dbr:Chair ;
+.
 furn:Closet
-        a owl:Class ;
-        owl:equivalentClass dbr:Closet ;
-        rdfs:subClassOf furn:Furniture ;
-        rdfs:label      "Closet"@en ,
-                        "Skab"@da .
-
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
+  rdfs:label "Closet"@en ;
+  rdfs:label "Skab"@da ;
+  rdfs:subClassOf furn:Furniture ;
+  owl:equivalentClass dbr:Closet ;
+.
+furn:Desk
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
+  rdfs:label "Desk"@en ;
+  rdfs:seeAlso ifc:IfcFurnitureEnumType ;
+  rdfs:subClassOf furn:Furniture ;
+.
 furn:FileCabinet
-        a owl:Class ;
-        rdfs:subClassOf furn:Furniture ;
-		rdfs:seeAlso ifc:IfcFurnitureEnumType ;
-        rdfs:label      "FileCabinet"@en .
-						
-furn:Bed 
-		a owl:Class ;
-        owl:equivalentClass dbr:Bed ;
-        rdfs:subClassOf furn:Furniture ;
-		rdfs:label "Bed"^^xsd:string ;
-		rdfs:seeAlso ifc:IfcFurnitureEnumType .
-						
-furn:Shelf 
-		a owl:Class ;
-        rdfs:subClassOf furn:Furniture ;
-		rdfs:label "Shelf"^^xsd:string ;
-		rdfs:seeAlso ifc:IfcFurnitureEnumType .
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
+  rdfs:label "FileCabinet"@en ;
+  rdfs:seeAlso ifc:IfcFurnitureEnumType ;
+  rdfs:subClassOf furn:Furniture ;
+.
+furn:Furniture
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
+  rdfs:label "Furniture"@en ;
+  rdfs:seeAlso ifc:IfcFurnishingElement ;
+  rdfs:subClassOf contax:ConstructionComponent ;
+.
+furn:Shelf
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
+  rdfs:label "Shelf"@en ;
+  rdfs:seeAlso ifc:IfcFurnitureEnumType ;
+  rdfs:subClassOf furn:Furniture ;
+.
+furn:Sofa
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
+  rdfs:label "Sofa"@da ;
+  rdfs:label "Sofa"@en ;
+  rdfs:seeAlso ifc:IfcFurnitureEnumType ;
+  rdfs:subClassOf furn:Furniture ;
+.
+furn:Table
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy <http://pi.pauwel.be/voc/furniture> ;
+  rdfs:label "Bord"@da ;
+  rdfs:label "Table"@en ;
+  rdfs:seeAlso ifc:IfcFurnitureEnumType ;
+  rdfs:subClassOf furn:Furniture ;
+  owl:equivalentClass <http://dbpedia.org/resource/Table_(furniture)> ;
+.
+dcterms:contributor
+  rdf:type owl:AnnotationProperty ;
+.
+dcterms:creator
+  rdf:type owl:AnnotationProperty ;
+.
+dcterms:description
+  rdf:type owl:AnnotationProperty ;
+.
+dcterms:issued
+  rdf:type owl:AnnotationProperty ;
+.
+dcterms:license
+  rdf:type owl:AnnotationProperty ;
+.
+dcterms:modified
+  rdf:type owl:AnnotationProperty ;
+.
+dcterms:title
+  rdf:type owl:AnnotationProperty ;
+.
+vann:preferredNamespacePrefix
+  rdf:type owl:AnnotationProperty ;
+.
+vann:preferredNamespaceUri
+  rdf:type owl:AnnotationProperty ;
+.
+voaf:Vocabulary
+  rdf:type owl:Class ;
+.
+vs:term_status
+  rdf:type owl:AnnotationProperty ;
+.
+foaf:Person
+  rdf:type owl:Class ;
+.
+foaf:name
+  rdf:type owl:DatatypeProperty ;
+.
+contax:ConstructionComponent
+  rdf:type owl:Class ;
+.

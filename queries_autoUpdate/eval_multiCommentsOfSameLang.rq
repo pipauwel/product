@@ -1,0 +1,7 @@
+SELECT DISTINCT ?class ?lang
+WHERE {
+	?class rdfs:comment ?comment , ?otherComment .
+	FILTER (?comment != ?otherComment )
+	FILTER (LANG(?comment) = LANG(?otherComment))
+	BIND(LANG(?comment) AS ?lang)
+}

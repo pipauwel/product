@@ -1,0 +1,10 @@
+DELETE {
+	?class rdfs:subClassOf schema:Product , gr:SomeItems .
+	gr:SomeItems  ?propGr ?objGr .
+	schema:Product ?propSchema ?objSchema .
+}
+WHERE {
+	?class rdfs:subClassOf gr:SomeItems .
+	gr:SomeItems  ?propGr ?objGr .
+	schema:Product ?propSchema ?objSchema .
+}

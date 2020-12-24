@@ -1,0 +1,10 @@
+SELECT DISTINCT *
+INSERT {
+	?class rdfs:seeAlso ?commentIRI
+}
+WHERE { 
+	?class rdfs:comment ?comment . 
+	FILTER (REGEX(STR(?comment),"http://bsdd.buildingsmart.org","i"))
+	
+	BIND ( IRI(STR(?comment)) AS ?commentIRI)
+}
