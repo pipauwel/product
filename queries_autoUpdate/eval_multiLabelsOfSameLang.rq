@@ -1,7 +1,0 @@
-SELECT DISTINCT ?class ?lang
-WHERE {
-	?class rdfs:label ?label , ?otherLabel .
-	FILTER (?label != ?otherLabel )
-	FILTER (LANG(?label) = LANG(?otherLabel))
-	BIND(LANG(?label) AS ?lang)
-}

@@ -1,9 +1,0 @@
-DELETE {
-	?class rdfs:seeAlso ?ifcRefIRI
-}
-WHERE { 
-	?class rdfs:seeAlso ?ifcRef . 
-	FILTER (REGEX(STR(?ifcRef),"http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#","i"))
-	
-	BIND ( IRI(REPLACE(STR(?ifcRef),"http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#","https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#","i")) AS ?ifcRefIRI)
-}

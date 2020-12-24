@@ -1,10 +1,24 @@
 # Product Ontologies for the construction industry
 
-This repository consists of three modular ontologies (BEO, FURN and MEP) each containing classes for describing respectively (architectural) building elements, furniture and MEP objects. 
-The modules are made using the product taxonomies of the IFC4_ADD2 schema and ameliorated with multilingual labels coming from the bSDD service.
+## What
+This repository consists of two modular ontologies (BEO and MEP), each containing classes for describing respectively (architectural) building elements and MEP objects. The modules are made using the product taxonomies of the IFC4_ADD2 schema (buildingElement and distributionElement)and ameliorated with multilingual labels coming from the bSDD service, using the bSDD API that existed in 2018. Manual edits were of course made after that.
+
+## Online published version
+Please refer to the namespaces of the ontologies for the latest version. This Git repository is not guaranteed to be up to date.
+- https://pi.pauwel.be/voc/buildingelement#
+- https://pi.pauwel.be/voc/distributionelement#
+
+## Alignments
+Alignments with other ontologies were included in the past, more particularly to IFC, BOT, GoodRelations, and Schema.org. These are now explicitly excluded, so that anyone is able to make the alignments that he or she wishes to make, and so that anyone can refer to as many ontologies as they wish without reaching clashes in semantics.
 
 ## Version control
-The first version of these modules was created within the W3C Linked Building Data Community Group and is stored in the [https://github.com/w3c-lbd-cg/product]() repository.
-A new version was created by Pieter Pauwels to extend the original initiative.
-
 Contributing to this repository can happen using regular Git pull requests and branches.
+
+- version 0.2: 24 December 2020.
+- version 0.1: 27 December 2018.
+- ground zero: The first versions of these ontologies were created by Pieter Pauwels, with help of Georg Schneider. They were contributed to the W3C Linked Building Data Community Group. They were out of scope there, and returned to the originator. The ontologies are self-published ever since for those who can use them.
+
+## Information
+Pieter Pauwels
+p.pauwels@tue.nl
+
